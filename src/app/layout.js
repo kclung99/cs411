@@ -1,4 +1,5 @@
 import './globals.css'
+import Link from 'next/link'
 
 export const metadata = {
   title: 'WattWhere Dashboard',
@@ -8,7 +9,17 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <nav className="top-nav">
+          <div className="top-nav-inner">
+            <Link href="/">Dashboard</Link>
+            <Link href="/sites">Site CRUD</Link>
+            <Link href="/search">Search</Link>
+            <Link href="/advanced">Advanced DB</Link>
+          </div>
+        </nav>
+        {children}
+      </body>
     </html>
   )
 }

@@ -74,6 +74,11 @@ export async function query(sql, params = []) {
   return rows
 }
 
+export async function getConnection() {
+  const { pool } = await getDbContext()
+  return pool.getConnection()
+}
+
 export async function userExists(userId) {
   const rows = await query('SELECT 1 AS ok FROM `User` WHERE user_id = ? LIMIT 1', [userId])
   return rows.length > 0
