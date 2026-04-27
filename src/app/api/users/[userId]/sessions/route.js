@@ -30,8 +30,8 @@ export async function GET(_request, { params }) {
          energy_kwh,
          charging_duration_min,
          session_duration_min
-       FROM public."ChargingSession"
-       WHERE user_id = $1
+       FROM \`ChargingSession\`
+       WHERE user_id = ?
        ORDER BY connection_time DESC`,
       [userId]
     )

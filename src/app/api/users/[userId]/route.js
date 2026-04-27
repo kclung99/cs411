@@ -18,8 +18,8 @@ export async function GET(_request, { params }) {
   try {
     const rows = await query(
       `SELECT user_id, user_type, registration_date
-       FROM public."User"
-       WHERE user_id = $1
+       FROM \`User\`
+       WHERE user_id = ?
        LIMIT 1`,
       [userId]
     )

@@ -27,13 +27,13 @@ export async function GET(_request, { params }) {
          r.station_id,
          r.recommendation_time_slot,
          r.score,
-         r."createdAt",
+         r.createdAt,
          r.model_type
-       FROM public."Receives" rv
-       INNER JOIN public."Recommendation" r
+       FROM \`Receives\` rv
+       INNER JOIN \`Recommendation\` r
          ON rv.recommendation_id = r.recommendation_id
-       WHERE rv.user_id = $1
-       ORDER BY r.score DESC, r."createdAt" DESC`,
+       WHERE rv.user_id = ?
+       ORDER BY r.score DESC, r.createdAt DESC`,
       [userId]
     )
 

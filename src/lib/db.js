@@ -1,7 +1,6 @@
-import pg from 'pg'
+import mysql from 'mysql2/promise'
 
 const globalForDb = globalThis
-const { Pool } = pg
 
 function requiredEnv(name) {
   const value = process.env[name]
@@ -11,14 +10,43 @@ function requiredEnv(name) {
   return value
 }
 
+function optionalIntEnv(name, fallback) {
+  const raw = process.env[name]
+  if (!raw) return fallback
+  const parsed = Number.parseInt(raw, 10)
+  if (!Number.isFinite(parsed)) {
+    throw new Error(`Invalid integer environment variable: ${name}`)
+  }
+  return parsed
+}
+
 function createPool() {
-  const connectionString = requiredEnv('SUPABASE_DB_URL')
-  return new Pool({
-    connectionString,
-    max: 5,
-    ssl: connectionString.includes('sslmode=require')
-      ? { rejectUnauthorized: false }
-      : undefined,
+  const user = requiredEnv('DB_USER')
+  const password = requiredEnv('DB_PASSWORD')
+  const database = requiredEnv('DB_NAME')
+  const socketPath = process.env.DB_SOCKET_PATH
+
+  const connectionConfig = {
+    user,
+    password,
+    database,
+    waitForConnections: true,
+    connectionLimit: optionalIntEnv('DB_CONNECTION_LIMIT', 5),
+    queueLimit: 0,
+    ssl: process.env.DB_SSL_CA ? { ca: process.env.DB_SSL_CA } : undefined,
+  }
+
+  if (socketPath) {
+    return mysql.createPool({
+      ...connectionConfig,
+      socketPath,
+    })
+  }
+
+  return mysql.createPool({
+    ...connectionConfig,
+    host: requiredEnv('DB_HOST'),
+    port: optionalIntEnv('DB_PORT', 3306),
   })
 }
 
@@ -31,13 +59,11 @@ async function getDbContext() {
 
 export async function query(sql, params = []) {
   const { pool } = await getDbContext()
-  const result = await pool.query(sql, params)
-  return result.rows
+  const [rows] = await pool.query(sql, params)
+  return rows
 }
 
 export async function userExists(userId) {
-  const rows = await query('SELECT 1 AS ok FROM public."User" WHERE user_id = $1 LIMIT 1', [
-    userId,
-  ])
+  const rows = await query('SELECT 1 AS ok FROM `User` WHERE user_id = ? LIMIT 1', [userId])
   return rows.length > 0
 }
