@@ -20,6 +20,7 @@ Copy `.env.example` to `.env.local` for local development.
 - `DB_NAME`
 - `DB_SOCKET_PATH`
 - `DB_CONNECTION_LIMIT` (optional)
+- `DB_SSL` (set `true` for local TCP to Cloud SQL when SSL-only is enabled)
 
 ## API Endpoints
 

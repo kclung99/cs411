@@ -20,11 +20,22 @@ function optionalIntEnv(name, fallback) {
   return parsed
 }
 
+function optionalBoolEnv(name, fallback) {
+  const raw = process.env[name]
+  if (!raw) return fallback
+  const normalized = raw.trim().toLowerCase()
+  if (['1', 'true', 'yes', 'on'].includes(normalized)) return true
+  if (['0', 'false', 'no', 'off'].includes(normalized)) return false
+  throw new Error(`Invalid boolean environment variable: ${name}`)
+}
+
 function createPool() {
   const user = requiredEnv('DB_USER')
   const password = requiredEnv('DB_PASSWORD')
   const database = requiredEnv('DB_NAME')
   const socketPath = process.env.DB_SOCKET_PATH
+  const sslCa = process.env.DB_SSL_CA
+  const sslEnabled = optionalBoolEnv('DB_SSL', false)
 
   const connectionConfig = {
     user,
@@ -33,7 +44,7 @@ function createPool() {
     waitForConnections: true,
     connectionLimit: optionalIntEnv('DB_CONNECTION_LIMIT', 5),
     queueLimit: 0,
-    ssl: process.env.DB_SSL_CA ? { ca: process.env.DB_SSL_CA } : undefined,
+    ssl: sslCa ? { ca: sslCa } : sslEnabled ? { rejectUnauthorized: false } : undefined,
   }
 
   if (socketPath) {
