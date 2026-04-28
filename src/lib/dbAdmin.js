@@ -31,15 +31,28 @@ function optionalBoolEnv(name, fallback) {
 }
 
 function dbConfig({ includeDatabase }) {
+  const socketPath = process.env.DB_SOCKET_PATH
+  const sslCa = process.env.DB_SSL_CA
   const sslEnabled = optionalBoolEnv('DB_SSL', false)
-  return {
-    host: requiredEnv('DB_HOST'),
-    port: optionalIntEnv('DB_PORT', 3306),
+  const baseConfig = {
     user: requiredEnv('DB_USER'),
     password: requiredEnv('DB_PASSWORD'),
     database: includeDatabase ? requiredEnv('DB_NAME') : undefined,
     multipleStatements: true,
-    ssl: sslEnabled ? { rejectUnauthorized: false } : undefined,
+    ssl: sslCa ? { ca: sslCa } : sslEnabled ? { rejectUnauthorized: false } : undefined,
+  }
+
+  if (socketPath) {
+    return {
+      ...baseConfig,
+      socketPath,
+    }
+  }
+
+  return {
+    ...baseConfig,
+    host: requiredEnv('DB_HOST'),
+    port: optionalIntEnv('DB_PORT', 3306),
   }
 }
 

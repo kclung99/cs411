@@ -56,31 +56,38 @@ export async function POST(_request, { params }) {
       [ticketId]
     )
 
-    const [remainingRows] = await conn.query(
-      `SELECT COUNT(*) AS remaining_open_tickets
-       FROM MaintenanceTicket
-       WHERE station_id = ?
-         AND ticket_status IN ('open', 'in_progress')`,
-      [ticket.station_id]
-    )
-
-    const remainingOpenTickets = Number(remainingRows[0]?.remaining_open_tickets || 0)
-
-    const [fulfillmentRows] = await conn.query(
+    const [metricsRows] = await conn.query(
       `SELECT
-         AVG(cs.energy_kwh / NULLIF(cr.kwh_requested, 0)) AS recent_fulfillment_rate
-       FROM ChargingSession cs
-       JOIN ChargingRequest cr
-         ON cs.request_id = cr.request_id
-       WHERE cs.station_id = ?
-         AND cs.connection_time >= DATE_SUB(NOW(), INTERVAL 30 DAY)`,
+         base.station_id,
+         COALESCE(SUM(CASE WHEN mt.ticket_status IN ('open', 'in_progress') THEN 1 ELSE 0 END), 0) AS remaining_open_tickets,
+         recent.recent_fulfillment_rate
+       FROM (
+         SELECT ? AS station_id
+       ) base
+       LEFT JOIN MaintenanceTicket mt
+         ON mt.station_id = base.station_id
+       LEFT JOIN (
+         SELECT
+           cs.station_id,
+           AVG(cs.energy_kwh / NULLIF(cr.kwh_requested, 0)) AS recent_fulfillment_rate
+         FROM ChargingSession cs
+         JOIN ChargingRequest cr
+           ON cs.request_id = cr.request_id
+         WHERE cs.connection_time >= DATE_SUB(NOW(), INTERVAL 30 DAY)
+         GROUP BY cs.station_id
+       ) recent
+         ON recent.station_id = base.station_id
+       GROUP BY
+         base.station_id,
+         recent.recent_fulfillment_rate`,
       [ticket.station_id]
     )
 
+    const remainingOpenTickets = Number(metricsRows[0]?.remaining_open_tickets || 0)
     const recentFulfillmentRate =
-      fulfillmentRows[0]?.recent_fulfillment_rate === null
+      metricsRows[0]?.recent_fulfillment_rate === null || metricsRows[0]?.recent_fulfillment_rate === undefined
         ? null
-        : Number(fulfillmentRows[0]?.recent_fulfillment_rate)
+        : Number(metricsRows[0]?.recent_fulfillment_rate)
 
     const newStatus =
       remainingOpenTickets === 0 && (recentFulfillmentRate === null || recentFulfillmentRate >= 0.8)
@@ -92,11 +99,13 @@ export async function POST(_request, { params }) {
         ? `Station restored after resolving ticket ${ticketId}`
         : `Station still needs monitoring after resolving ticket ${ticketId}`
 
+    await conn.query('SET @DISABLE_AUTO_TICKET_TRIGGER = 1')
     await conn.query(
       `INSERT INTO StationStatus (station_id, status, reported_at, note)
        VALUES (?, ?, NOW(), ?)`,
       [ticket.station_id, newStatus, note]
     )
+    await conn.query('SET @DISABLE_AUTO_TICKET_TRIGGER = 0')
 
     await conn.commit()
 
@@ -114,6 +123,9 @@ export async function POST(_request, { params }) {
     } catch {}
     return internalError(error)
   } finally {
+    try {
+      await conn.query('SET @DISABLE_AUTO_TICKET_TRIGGER = 0')
+    } catch {}
     conn.release()
   }
 }

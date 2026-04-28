@@ -7,10 +7,6 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Input } from '@/components/ui/input'
 import { cn } from '@/lib/utils'
 
-const dbAdminEnabled =
-  process.env.NODE_ENV !== 'production' ||
-  process.env.NEXT_PUBLIC_SHOW_DB_ADMIN === 'true'
-
 const ACTIONS = [
   {
     id: 'create',
@@ -51,6 +47,7 @@ async function requestJson(url, options = {}) {
 
 export default function DbPage() {
   const [selected, setSelected] = useState(null)
+  const [adminPassword, setAdminPassword] = useState('')
   const [confirmText, setConfirmText] = useState('')
   const [loading, setLoading] = useState(false)
   const [message, setMessage] = useState(null)
@@ -58,9 +55,10 @@ export default function DbPage() {
 
   const canRun = useMemo(() => {
     if (!selected) return false
+    if (!adminPassword.trim()) return false
     if (!selected.danger) return true
     return confirmText.trim().toLowerCase() === selected.id
-  }, [selected, confirmText])
+  }, [selected, confirmText, adminPassword])
 
   async function runAction() {
     if (!selected || !canRun) return
@@ -73,7 +71,7 @@ export default function DbPage() {
       const payload = await requestJson('/api/admin/db', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ action: selected.id }),
+        body: JSON.stringify({ action: selected.id, password: adminPassword }),
       })
       setMessage(payload.detail)
       setSelected(null)
@@ -87,19 +85,9 @@ export default function DbPage() {
 
   return (
     <main className="space-y-6 p-4 md:p-6">
-      {!dbAdminEnabled ? (
-        <Card className="border-amber-300 bg-amber-50 text-amber-900">
-          <CardContent className="p-4 text-sm">
-            DB Admin is disabled in this environment. Set `NEXT_PUBLIC_SHOW_DB_ADMIN=true` to enable it.
-          </CardContent>
-        </Card>
-      ) : null}
-
-      {!dbAdminEnabled ? null : (
-        <>
       <div className="space-y-1">
         <h2 className="text-2xl font-semibold tracking-tight">Database Lifecycle Controls</h2>
-        <p className="text-sm text-muted-foreground">Run schema and seed operations for demo setup without leaving the UI. Destructive actions require typed confirmation.</p>
+        <p className="text-sm text-muted-foreground">Run schema and seed operations for demo setup without leaving the UI. All actions require DB admin password. Destructive actions also require typed confirmation.</p>
       </div>
 
       <div className="grid gap-4 xl:grid-cols-[1.1fr_0.9fr]">
@@ -135,6 +123,15 @@ export default function DbPage() {
             <CardTitle>Execution Panel</CardTitle>
           </CardHeader>
           <CardContent className="space-y-3 text-sm">
+            <div className="space-y-1">
+              <p className="text-xs text-muted-foreground">DB Admin Password</p>
+              <Input
+                type="password"
+                value={adminPassword}
+                onChange={(e) => setAdminPassword(e.target.value)}
+                placeholder="Enter DB_ADMIN_PASSWORD"
+              />
+            </div>
             {selected ? (
               <>
                 <div className={cn('rounded-md border p-3', selected.tone)}>
@@ -167,8 +164,6 @@ export default function DbPage() {
 
       {message ? <Card className="p-4 text-sm">{message}</Card> : null}
       {error ? <Card className="border-destructive/50 bg-destructive/10 p-4 text-sm text-destructive">{error}</Card> : null}
-        </>
-      )}
     </main>
   )
 }

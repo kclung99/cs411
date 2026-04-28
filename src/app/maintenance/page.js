@@ -1,6 +1,6 @@
 'use client'
 
-import { useEffect, useMemo, useRef, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 
 import { DerivedLabel } from '@/components/derived-label'
 import { Button } from '@/components/ui/button'
@@ -59,10 +59,8 @@ export default function MaintenancePage() {
   const [error, setError] = useState(null)
   const [message, setMessage] = useState(null)
   const [loading, setLoading] = useState(false)
+  const [savingTicketId, setSavingTicketId] = useState(null)
   const [resolvingTicketId, setResolvingTicketId] = useState(null)
-
-  const autosaveTimersRef = useRef({})
-  const autosaveVersionRef = useRef({})
 
   const queueStats = useMemo(() => {
     return {
@@ -139,13 +137,6 @@ export default function MaintenancePage() {
     }
   }, [])
 
-  useEffect(
-    () => () => {
-      Object.values(autosaveTimersRef.current).forEach((timer) => window.clearTimeout(timer))
-    },
-    [],
-  )
-
   useEffect(() => {
     if (!lastResolution) return
     const timer = window.setTimeout(() => setLastResolution(null), 7000)
@@ -164,49 +155,12 @@ export default function MaintenancePage() {
     }
   }
 
-  function cancelTicketAutosave(ticketId) {
-    if (autosaveTimersRef.current[ticketId]) {
-      window.clearTimeout(autosaveTimersRef.current[ticketId])
-      delete autosaveTimersRef.current[ticketId]
-    }
-    autosaveVersionRef.current[ticketId] = (autosaveVersionRef.current[ticketId] || 0) + 1
-  }
-
-  async function persistTicketDraft(ticketId, draft, version) {
-    try {
-      await requestJson(`/api/tickets/${ticketId}`, {
-        method: 'PUT',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(draft),
-      })
-
-      if (autosaveVersionRef.current[ticketId] !== version) return
-
-      setEditingTickets((prev) => {
-        const next = { ...prev }
-        delete next[ticketId]
-        return next
-      })
-
-      await loadData()
-    } catch (err) {
-      if (autosaveVersionRef.current[ticketId] !== version) return
-      setError(err instanceof Error ? err.message : `Failed to auto-save ticket ${ticketId}.`)
-    }
-  }
-
-  function scheduleTicketAutosave(ticketId, draft) {
-    if (autosaveTimersRef.current[ticketId]) {
-      window.clearTimeout(autosaveTimersRef.current[ticketId])
-    }
-
-    const version = (autosaveVersionRef.current[ticketId] || 0) + 1
-    autosaveVersionRef.current[ticketId] = version
-
-    autosaveTimersRef.current[ticketId] = window.setTimeout(() => {
-      delete autosaveTimersRef.current[ticketId]
-      persistTicketDraft(ticketId, draft, version)
-    }, 500)
+  function isTicketDirty(ticket, draft = getTicketDraft(ticket)) {
+    return (
+      draft.priority !== ticket.priority ||
+      draft.ticket_status !== ticket.ticket_status ||
+      draft.description !== ticket.description
+    )
   }
 
   function updateTicketDraft(ticket, patch) {
@@ -217,12 +171,35 @@ export default function MaintenancePage() {
       ...prev,
       [ticket.ticket_id]: nextDraft,
     }))
+  }
 
-    setTickets((prev) =>
-      prev.map((row) => (row.ticket_id === ticket.ticket_id ? { ...row, ...nextDraft } : row)),
-    )
+  async function saveTicket(ticket) {
+    const draft = getTicketDraft(ticket)
+    if (!isTicketDirty(ticket, draft)) return
 
-    scheduleTicketAutosave(ticket.ticket_id, nextDraft)
+    setSavingTicketId(ticket.ticket_id)
+    setError(null)
+    setMessage(null)
+
+    try {
+      const payload = await requestJson(`/api/tickets/${ticket.ticket_id}`, {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(draft),
+      })
+
+      setMessage(payload.detail)
+      setEditingTickets((prev) => {
+        const next = { ...prev }
+        delete next[ticket.ticket_id]
+        return next
+      })
+      await loadData()
+    } catch (err) {
+      setError(err instanceof Error ? err.message : `Failed to save ticket ${ticket.ticket_id}.`)
+    } finally {
+      setSavingTicketId(null)
+    }
   }
 
   function handleTabChange(nextTab) {
@@ -278,7 +255,6 @@ export default function MaintenancePage() {
   }
 
   async function resolveTicket(ticketId) {
-    cancelTicketAutosave(ticketId)
     setResolvingTicketId(ticketId)
     setError(null)
     setMessage(null)
@@ -290,6 +266,11 @@ export default function MaintenancePage() {
       setTriggerNotice(
         `Transaction signal: resolved ticket ${ticketId}, station ${payload.station_id} moved to ${payload.inserted_status}.`,
       )
+      setEditingTickets((prev) => {
+        const next = { ...prev }
+        delete next[ticketId]
+        return next
+      })
       await loadData()
     } catch (err) {
       setError(err instanceof Error ? err.message : `Failed to resolve ticket ${ticketId}.`)
@@ -300,7 +281,6 @@ export default function MaintenancePage() {
 
   async function deleteTicket(ticketId) {
     if (!window.confirm(`Delete ticket ${ticketId}?`)) return
-    cancelTicketAutosave(ticketId)
 
     setLoading(true)
     setError(null)
@@ -309,6 +289,11 @@ export default function MaintenancePage() {
     try {
       const payload = await requestJson(`/api/tickets/${ticketId}`, { method: 'DELETE' })
       setMessage(payload.detail)
+      setEditingTickets((prev) => {
+        const next = { ...prev }
+        delete next[ticketId]
+        return next
+      })
       await loadData()
     } catch (err) {
       setError(err instanceof Error ? err.message : 'Failed to delete ticket.')
@@ -419,6 +404,7 @@ export default function MaintenancePage() {
                   {activeQueue.map((ticket) => {
                     const draft = getTicketDraft(ticket)
                     const isResolved = ['resolved', 'closed'].includes(draft.ticket_status)
+                    const isDirty = isTicketDirty(ticket, draft)
 
                     return (
                       <TableRow key={ticket.ticket_id}>
@@ -468,11 +454,20 @@ export default function MaintenancePage() {
                         </TableCell>
                         <TableCell className="whitespace-nowrap text-sm">{formatTimestamp(ticket.opened_at)}</TableCell>
                         <TableCell className="text-right">
-                          <div className="inline-flex min-w-[170px] flex-nowrap items-center justify-end gap-2">
+                          <div className="inline-flex min-w-[250px] flex-nowrap items-center justify-end gap-2">
                             <Button
                               type="button"
                               size="sm"
-                              disabled={isResolved || resolvingTicketId === ticket.ticket_id}
+                              variant="outline"
+                              disabled={!isDirty || loading || savingTicketId === ticket.ticket_id || resolvingTicketId === ticket.ticket_id}
+                              onClick={() => saveTicket(ticket)}
+                            >
+                              {savingTicketId === ticket.ticket_id ? 'Saving...' : 'Save'}
+                            </Button>
+                            <Button
+                              type="button"
+                              size="sm"
+                              disabled={isResolved || loading || savingTicketId === ticket.ticket_id || resolvingTicketId === ticket.ticket_id}
                               onClick={() => resolveTicket(ticket.ticket_id)}
                             >
                               Resolve
@@ -611,6 +606,7 @@ export default function MaintenancePage() {
                     {selectedInsightStationTickets.map((ticket) => {
                       const draft = getTicketDraft(ticket)
                       const isResolved = ['resolved', 'closed'].includes(draft.ticket_status)
+                      const isDirty = isTicketDirty(ticket, draft)
 
                       return (
                         <TableRow key={`insight-ticket-${ticket.ticket_id}`}>
@@ -659,11 +655,20 @@ export default function MaintenancePage() {
                           </TableCell>
                           <TableCell className="whitespace-nowrap text-sm">{formatTimestamp(ticket.opened_at)}</TableCell>
                           <TableCell className="text-right">
-                            <div className="inline-flex min-w-[170px] flex-nowrap items-center justify-end gap-2">
+                            <div className="inline-flex min-w-[250px] flex-nowrap items-center justify-end gap-2">
                               <Button
                                 type="button"
                                 size="sm"
-                                disabled={isResolved || resolvingTicketId === ticket.ticket_id}
+                                variant="outline"
+                                disabled={!isDirty || loading || savingTicketId === ticket.ticket_id || resolvingTicketId === ticket.ticket_id}
+                                onClick={() => saveTicket(ticket)}
+                              >
+                                {savingTicketId === ticket.ticket_id ? 'Saving...' : 'Save'}
+                              </Button>
+                              <Button
+                                type="button"
+                                size="sm"
+                                disabled={isResolved || loading || savingTicketId === ticket.ticket_id || resolvingTicketId === ticket.ticket_id}
                                 onClick={() => resolveTicket(ticket.ticket_id)}
                               >
                                 Resolve

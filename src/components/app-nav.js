@@ -5,16 +5,12 @@ import { usePathname } from 'next/navigation'
 
 import { cn } from '@/lib/utils'
 
-const showDbAdmin =
-  process.env.NODE_ENV !== 'production' ||
-  process.env.NEXT_PUBLIC_SHOW_DB_ADMIN === 'true'
-
 const navItems = [
   { href: '/', label: 'Dashboard' },
   { href: '/users', label: 'Users' },
   { href: '/stations', label: 'Stations' },
   { href: '/maintenance', label: 'Routine Ops' },
-  ...(showDbAdmin ? [{ href: '/db', label: 'DB Admin' }] : []),
+  { href: '/db', label: 'DB Admin' },
 ]
 
 function isActive(pathname, href) {

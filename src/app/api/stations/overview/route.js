@@ -68,13 +68,15 @@ export async function GET() {
          latest_status_time,
          open_ticket_count,
          CASE
-           WHEN open_ticket_count > 0
-             OR issue_status_count >= 5
-             OR (avg_fulfillment_rate IS NOT NULL AND avg_fulfillment_rate < 0.70)
+           WHEN open_ticket_count = 0
+             AND latest_status = 'active'
+           THEN 'healthy'
+           WHEN open_ticket_count = 0
+           THEN 'attention'
+           WHEN latest_status = 'offline'
+             OR open_ticket_count >= 3
            THEN 'danger'
-           WHEN (avg_fulfillment_rate IS NOT NULL AND avg_fulfillment_rate < 0.85)
-             OR (avg_idle_minutes IS NOT NULL AND avg_idle_minutes > 60)
-             OR issue_status_count >= 2
+           WHEN open_ticket_count > 0
            THEN 'attention'
            ELSE 'healthy'
          END AS reliability_health_label
