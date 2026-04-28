@@ -2,188 +2,198 @@
 
 import { useEffect, useState } from 'react'
 
-import ChargingHistoryCard from '@/components/ChargingHistoryCard'
-import DashboardHeader from '@/components/DashboardHeader'
-import DetailPanelCard from '@/components/DetailPanelCard'
-import RecommendationsCard from '@/components/RecommendationsCard'
-import UserSelectorCard from '@/components/UserSelectorCard'
-import UserSummaryCard from '@/components/UserSummaryCard'
+import { DerivedLabel } from '@/components/derived-label'
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 
-async function fetchJson(url) {
+async function requestJson(url) {
   const response = await fetch(url)
-  if (!response.ok) {
-    throw new Error(`Request failed (${response.status})`)
-  }
-  return response.json()
+  const payload = await response.json().catch(() => ({}))
+  if (!response.ok) throw new Error(payload?.detail || `Request failed (${response.status})`)
+  return payload
 }
 
-export default function DashboardPage() {
-  const [users, setUsers] = useState([])
-  const [selectedUserId, setSelectedUserId] = useState(null)
-  const [selectedUser, setSelectedUser] = useState(null)
-  const [sessions, setSessions] = useState([])
-  const [recommendations, setRecommendations] = useState([])
-  const [selectedSession, setSelectedSession] = useState(null)
-  const [selectedRecommendation, setSelectedRecommendation] = useState(null)
-  const [loadingUsers, setLoadingUsers] = useState(true)
-  const [loadingUserData, setLoadingUserData] = useState(false)
-  const [error, setError] = useState({
-    users: null,
-    user: null,
-    sessions: null,
-    recommendations: null,
-  })
+function formatMetric(value, loading) {
+  if (loading) return '...'
+  return Number(value || 0).toLocaleString()
+}
+
+export default function OverviewPage() {
+  const [summary, setSummary] = useState(null)
+  const [loading, setLoading] = useState(true)
+  const [error, setError] = useState(null)
 
   useEffect(() => {
-    let active = true
+    let cancelled = false
 
-    async function loadUsers() {
-      setLoadingUsers(true)
-      setError((prev) => ({ ...prev, users: null }))
+    requestJson('/api/dashboard/summary')
+      .then((payload) => {
+        if (cancelled) return
+        setSummary(payload)
+      })
+      .catch((err) => {
+        if (cancelled) return
+        setError(err instanceof Error ? err.message : 'Failed to load dashboard summary.')
+      })
+      .finally(() => {
+        if (cancelled) return
+        setLoading(false)
+      })
 
-      try {
-        const data = await fetchJson('/api/users')
-        if (active) setUsers(data)
-      } catch {
-        if (active) {
-          setUsers([])
-          setError((prev) => ({ ...prev, users: 'Failed to load users.' }))
-        }
-      } finally {
-        if (active) setLoadingUsers(false)
-      }
-    }
-
-    loadUsers()
     return () => {
-      active = false
+      cancelled = true
     }
   }, [])
 
-  useEffect(() => {
-    let active = true
+  const userChargingMetrics = [
+    { key: 'total_users', label: 'Users', tooltip: 'COUNT(*) FROM `User`.' },
+    { key: 'total_requests', label: 'Charging Requests', tooltip: 'COUNT(*) FROM ChargingRequest.' },
+    { key: 'total_sessions', label: 'Charging Sessions', tooltip: 'COUNT(*) FROM ChargingSession.' },
+    {
+      key: 'total_energy_kwh',
+      label: 'Energy Delivered (kWh)',
+      tooltip: 'SUM(ChargingSession.energy_kwh), rounded to 2 decimals.',
+    },
+  ]
 
-    async function loadUserDashboard(userId) {
-      setLoadingUserData(true)
-      setSelectedUser(null)
-      setSessions([])
-      setRecommendations([])
-      setError((prev) => ({
-        ...prev,
-        user: null,
-        sessions: null,
-        recommendations: null,
-      }))
+  const stationOverviewMetrics = [
+    {
+      key: 'total_stations',
+      label: 'Total Stations',
+      tooltip: 'COUNT(*) FROM Station.',
+      className: '',
+    },
+    {
+      key: 'total_status_reports',
+      label: 'Status Reports Logged',
+      tooltip: 'COUNT(*) FROM StationStatus.',
+      className: 'border-slate-200 bg-slate-50 text-slate-800',
+    },
+  ]
 
-      const [userResult, sessionResult, recommendationResult] =
-        await Promise.allSettled([
-          fetchJson(`/api/users/${userId}`),
-          fetchJson(`/api/users/${userId}/sessions`),
-          fetchJson(`/api/users/${userId}/recommendations`),
-        ])
+  const stationStatusMetrics = [
+    {
+      key: 'active_stations',
+      label: 'Active Stations',
+      tooltip: 'Count of stations whose latest StationStatus row has status = active.',
+      className: 'border-emerald-200 bg-emerald-50 text-emerald-800',
+    },
+    {
+      key: 'maintenance_stations',
+      label: 'Maintenance Stations',
+      tooltip: 'Count of stations whose latest StationStatus row has status = maintenance.',
+      className: 'border-amber-200 bg-amber-50 text-amber-800',
+    },
+    {
+      key: 'offline_stations',
+      label: 'Offline Stations',
+      tooltip: 'Count of stations whose latest StationStatus row has status = offline.',
+      className: 'border-rose-200 bg-rose-50 text-rose-800',
+    },
+  ]
 
-      if (!active) return
-
-      if (userResult.status === 'fulfilled') {
-        setSelectedUser(userResult.value)
-      } else {
-        setError((prev) => ({ ...prev, user: 'Failed to load user summary.' }))
-      }
-
-      if (sessionResult.status === 'fulfilled') {
-        setSessions(sessionResult.value)
-      } else {
-        setError((prev) => ({ ...prev, sessions: 'Failed to load charging history.' }))
-      }
-
-      if (recommendationResult.status === 'fulfilled') {
-        setRecommendations(recommendationResult.value)
-      } else {
-        setError((prev) => ({
-          ...prev,
-          recommendations: 'Failed to load recommendations.',
-        }))
-      }
-
-      setLoadingUserData(false)
-    }
-
-    if (selectedUserId === null) {
-      setSelectedUser(null)
-      setSessions([])
-      setRecommendations([])
-      setLoadingUserData(false)
-      return () => {
-        active = false
-      }
-    }
-
-    loadUserDashboard(selectedUserId)
-
-    return () => {
-      active = false
-    }
-  }, [selectedUserId])
-
-  function handleSelectUser(userId) {
-    setSelectedUserId(userId)
-    setSelectedSession(null)
-    setSelectedRecommendation(null)
-  }
-
-  function handleSelectSession(session) {
-    setSelectedSession(session)
-    setSelectedRecommendation(null)
-  }
-
-  function handleSelectRecommendation(recommendation) {
-    setSelectedRecommendation(recommendation)
-    setSelectedSession(null)
-  }
+  const ticketQueueMetrics = [
+    {
+      key: 'total_tickets',
+      label: 'Total Tickets',
+      tooltip: 'COUNT(*) FROM MaintenanceTicket.',
+      className: '',
+    },
+    {
+      key: 'open_tickets',
+      label: 'Open Tickets',
+      tooltip: 'COUNT(*) FROM MaintenanceTicket WHERE ticket_status = open.',
+      className: 'border-rose-200 bg-rose-50 text-rose-800',
+    },
+    {
+      key: 'in_progress_tickets',
+      label: 'In Progress Tickets',
+      tooltip: 'COUNT(*) FROM MaintenanceTicket WHERE ticket_status = in_progress.',
+      className: 'border-amber-200 bg-amber-50 text-amber-800',
+    },
+    {
+      key: 'resolved_closed_tickets',
+      label: 'Resolved / Closed',
+      tooltip: 'COUNT(*) FROM MaintenanceTicket WHERE ticket_status IN (resolved, closed).',
+      className: 'border-emerald-200 bg-emerald-50 text-emerald-800',
+    },
+  ]
 
   return (
-    <main className="dashboard-page">
-      <DashboardHeader />
+    <main className="space-y-6 p-4 md:p-6">
+      <div className="space-y-1">
+        <h2 className="text-2xl font-semibold tracking-tight">Operations Dashboard</h2>
+        <p className="text-sm text-muted-foreground">
+          High-level aggregates grouped by domain: users and charging activity, station status, and ticket queue.
+        </p>
+      </div>
 
-      <UserSelectorCard
-        users={users}
-        selectedUserId={selectedUserId}
-        onSelectUser={handleSelectUser}
-        loadingUsers={loadingUsers}
-        error={error.users}
-      />
-
-      <UserSummaryCard
-        selectedUser={selectedUser}
-        selectedUserId={selectedUserId}
-        loadingUserData={loadingUserData}
-        error={error.user}
-      />
-
-      <section className="two-column-grid">
-        <ChargingHistoryCard
-          sessions={sessions}
-          selectedUserId={selectedUserId}
-          loadingUserData={loadingUserData}
-          error={error.sessions}
-          selectedSession={selectedSession}
-          onSelectSession={handleSelectSession}
-        />
-
-        <RecommendationsCard
-          recommendations={recommendations}
-          selectedUserId={selectedUserId}
-          loadingUserData={loadingUserData}
-          error={error.recommendations}
-          selectedRecommendation={selectedRecommendation}
-          onSelectRecommendation={handleSelectRecommendation}
-        />
+      <section className="space-y-3">
+        <h3 className="text-sm font-semibold uppercase tracking-wide text-muted-foreground">Users & Charging</h3>
+        <div className="grid gap-2 sm:grid-cols-2 xl:grid-cols-4">
+          {userChargingMetrics.map((metric) => (
+            <Card key={metric.key}>
+              <CardContent className="p-4">
+                <p className="text-xs text-muted-foreground">
+                  <DerivedLabel label={metric.label} tooltip={metric.tooltip} />
+                </p>
+                <p className="mt-1 text-2xl font-semibold">{formatMetric(summary?.[metric.key], loading)}</p>
+              </CardContent>
+            </Card>
+          ))}
+        </div>
       </section>
 
-      <DetailPanelCard
-        selectedSession={selectedSession}
-        selectedRecommendation={selectedRecommendation}
-      />
+      <section className="space-y-3">
+        <h3 className="text-sm font-semibold uppercase tracking-wide text-muted-foreground">Station Status</h3>
+        <div className="grid gap-2 sm:grid-cols-2 xl:grid-cols-4">
+          {stationOverviewMetrics.map((metric) => (
+            <Card key={metric.key} className={metric.className}>
+              <CardContent className="p-4">
+                <p className={metric.className ? 'text-xs opacity-80' : 'text-xs text-muted-foreground'}>
+                  <DerivedLabel label={metric.label} tooltip={metric.tooltip} />
+                </p>
+                <p className="mt-1 text-2xl font-semibold">{formatMetric(summary?.[metric.key], loading)}</p>
+              </CardContent>
+            </Card>
+          ))}
+        </div>
+      </section>
+
+      <section className="space-y-3">
+        <h3 className="text-sm font-semibold uppercase tracking-wide text-muted-foreground">
+          Station Status Breakdown
+        </h3>
+        <div className="grid gap-2 sm:grid-cols-2 xl:grid-cols-3">
+          {stationStatusMetrics.map((metric) => (
+            <Card key={metric.key} className={metric.className}>
+              <CardContent className="p-4">
+                <p className="text-xs opacity-80">
+                  <DerivedLabel label={metric.label} tooltip={metric.tooltip} />
+                </p>
+                <p className="mt-1 text-2xl font-semibold">{formatMetric(summary?.[metric.key], loading)}</p>
+              </CardContent>
+            </Card>
+          ))}
+        </div>
+      </section>
+
+      <section className="space-y-3">
+        <h3 className="text-sm font-semibold uppercase tracking-wide text-muted-foreground">Ticket Queue</h3>
+        <div className="grid gap-2 sm:grid-cols-2 xl:grid-cols-4">
+          {ticketQueueMetrics.map((metric) => (
+            <Card key={metric.key} className={metric.className}>
+              <CardContent className="p-4">
+                <p className={metric.className ? 'text-xs opacity-80' : 'text-xs text-muted-foreground'}>
+                  <DerivedLabel label={metric.label} tooltip={metric.tooltip} />
+                </p>
+                <p className="mt-1 text-2xl font-semibold">{formatMetric(summary?.[metric.key], loading)}</p>
+              </CardContent>
+            </Card>
+          ))}
+        </div>
+      </section>
+
+      {error ? <Card className="border-destructive/50 bg-destructive/10 p-4 text-sm text-destructive">{error}</Card> : null}
     </main>
   )
 }

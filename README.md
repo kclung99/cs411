@@ -29,6 +29,26 @@ Copy `.env.example` to `.env.local` for local development.
 - `GET /api/users/{userId}/sessions`
 - `GET /api/users/{userId}/recommendations`
 
+## DB Management UI
+
+Use the in-app page `http://localhost:3000/db` to manage database state with confirmation modal prompts:
+
+- `Create DB + Schema`
+- `Seed Data`
+- `Drop Database`
+- `Reset Database` (drop -> create -> seed)
+
+Implementation files:
+
+- DB admin API route: `src/app/api/admin/db/route.js`
+- DB admin logic: `src/lib/dbAdmin.js`
+- Schema SQL source: `data/sql/schema.sql`
+- Seed JSON source: `data/generated/*.json`
+
+Optional:
+
+- set `DB_SEED_DIR` in env to load seed JSON from a different folder.
+
 ## Deploy
 
 Using Cloud SQL instance `cs411-team14:us-central1:cs411-014`.

@@ -17,27 +17,21 @@ export async function GET(request, { params }) {
   try {
     const rows = await query(
       `SELECT
-         cs.session_id,
+         cr.request_id,
+         cr.request_status,
+         cr.kwh_requested,
+         cr.miles_requested,
+         cr.minutes_available,
+         cr.requested_departure,
+         cr.modified_at,
          s.station_name,
          s.location_label,
-         cs.connection_time,
-         cs.disconnect_time,
-         cs.done_charging_time,
-         cs.energy_kwh,
-         cr.kwh_requested,
-         ROUND(cs.energy_kwh / NULLIF(cr.kwh_requested, 0), 3) AS fulfillment_rate,
-         CASE
-           WHEN cs.done_charging_time IS NOT NULL
-           THEN TIMESTAMPDIFF(MINUTE, cs.done_charging_time, cs.disconnect_time)
-           ELSE NULL
-         END AS idle_minutes
-       FROM ChargingSession cs
+         s.charger_type
+       FROM ChargingRequest cr
        JOIN Station s
-         ON cs.station_id = s.station_id
-       LEFT JOIN ChargingRequest cr
-         ON cs.request_id = cr.request_id
-       WHERE cs.user_id = ?
-       ORDER BY cs.connection_time DESC
+         ON cr.station_id = s.station_id
+       WHERE cr.user_id = ?
+       ORDER BY cr.modified_at DESC
        LIMIT ?`,
       [userId, limit]
     )
