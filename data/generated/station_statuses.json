@@ -1,0 +1,7002 @@
+[
+  {
+    "status_id": 1,
+    "station_id": "2-39-123-23",
+    "status": "active",
+    "reported_at": "2020-02-09 20:38:41",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 2,
+    "station_id": "2-39-123-23",
+    "status": "active",
+    "reported_at": "2020-02-16 06:16:40",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 3,
+    "station_id": "2-39-123-23",
+    "status": "active",
+    "reported_at": "2020-03-27 17:09:46",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 4,
+    "station_id": "2-39-123-23",
+    "status": "active",
+    "reported_at": "2020-05-04 01:48:40",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 5,
+    "station_id": "2-39-123-23",
+    "status": "active",
+    "reported_at": "2020-06-12 08:24:55",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 6,
+    "station_id": "2-39-123-23",
+    "status": "active",
+    "reported_at": "2020-07-14 03:47:10",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 7,
+    "station_id": "2-39-123-23",
+    "status": "active",
+    "reported_at": "2020-07-17 18:32:00",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 8,
+    "station_id": "2-39-123-23",
+    "status": "active",
+    "reported_at": "2020-07-31 17:58:22",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 9,
+    "station_id": "2-39-123-23",
+    "status": "offline",
+    "reported_at": "2020-08-04 03:30:21",
+    "note": "charger unavailable to drivers"
+  },
+  {
+    "status_id": 10,
+    "station_id": "2-39-123-23",
+    "status": "maintenance",
+    "reported_at": "2020-08-10 08:43:41",
+    "note": "charging cable needs inspection"
+  },
+  {
+    "status_id": 11,
+    "station_id": "2-39-123-23",
+    "status": "active",
+    "reported_at": "2020-08-21 10:00:42",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 12,
+    "station_id": "2-39-123-23",
+    "status": "active",
+    "reported_at": "2020-08-29 08:39:06",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 13,
+    "station_id": "2-39-123-23",
+    "status": "active",
+    "reported_at": "2020-09-08 08:19:27",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 14,
+    "station_id": "2-39-123-23",
+    "status": "active",
+    "reported_at": "2020-10-10 17:07:00",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 15,
+    "station_id": "2-39-123-23",
+    "status": "active",
+    "reported_at": "2020-10-28 14:10:51",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 16,
+    "station_id": "2-39-123-23",
+    "status": "active",
+    "reported_at": "2020-10-31 05:34:08",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 17,
+    "station_id": "2-39-123-23",
+    "status": "active",
+    "reported_at": "2020-11-23 03:45:11",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 18,
+    "station_id": "2-39-123-23",
+    "status": "active",
+    "reported_at": "2020-11-29 23:47:11",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 19,
+    "station_id": "2-39-123-23",
+    "status": "active",
+    "reported_at": "2020-12-09 08:35:37",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 20,
+    "station_id": "2-39-123-23",
+    "status": "maintenance",
+    "reported_at": "2020-12-13 12:12:25",
+    "note": "preventive maintenance visit"
+  },
+  {
+    "status_id": 21,
+    "station_id": "2-39-123-557",
+    "status": "active",
+    "reported_at": "2020-01-10 20:31:21",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 22,
+    "station_id": "2-39-123-557",
+    "status": "active",
+    "reported_at": "2020-01-19 23:39:59",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 23,
+    "station_id": "2-39-123-557",
+    "status": "active",
+    "reported_at": "2020-02-20 02:21:23",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 24,
+    "station_id": "2-39-123-557",
+    "status": "maintenance",
+    "reported_at": "2020-03-28 04:43:24",
+    "note": "scheduled maintenance"
+  },
+  {
+    "status_id": 25,
+    "station_id": "2-39-123-557",
+    "status": "active",
+    "reported_at": "2020-04-10 10:43:53",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 26,
+    "station_id": "2-39-123-557",
+    "status": "active",
+    "reported_at": "2020-06-12 02:22:05",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 27,
+    "station_id": "2-39-123-557",
+    "status": "active",
+    "reported_at": "2020-07-05 02:22:27",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 28,
+    "station_id": "2-39-123-557",
+    "status": "active",
+    "reported_at": "2020-07-18 05:02:06",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 29,
+    "station_id": "2-39-123-557",
+    "status": "active",
+    "reported_at": "2020-07-20 03:59:27",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 30,
+    "station_id": "2-39-123-557",
+    "status": "active",
+    "reported_at": "2020-07-22 04:43:53",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 31,
+    "station_id": "2-39-123-557",
+    "status": "active",
+    "reported_at": "2020-07-22 18:07:03",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 32,
+    "station_id": "2-39-123-557",
+    "status": "maintenance",
+    "reported_at": "2020-08-07 00:51:43",
+    "note": "scheduled maintenance"
+  },
+  {
+    "status_id": 33,
+    "station_id": "2-39-123-557",
+    "status": "active",
+    "reported_at": "2020-08-11 12:12:00",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 34,
+    "station_id": "2-39-123-557",
+    "status": "offline",
+    "reported_at": "2020-09-30 15:55:54",
+    "note": "power interruption reported"
+  },
+  {
+    "status_id": 35,
+    "station_id": "2-39-123-557",
+    "status": "offline",
+    "reported_at": "2020-10-24 10:01:07",
+    "note": "charger unavailable to drivers"
+  },
+  {
+    "status_id": 36,
+    "station_id": "2-39-123-557",
+    "status": "offline",
+    "reported_at": "2020-11-08 16:45:27",
+    "note": "charger unavailable to drivers"
+  },
+  {
+    "status_id": 37,
+    "station_id": "2-39-123-557",
+    "status": "active",
+    "reported_at": "2020-11-13 17:32:41",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 38,
+    "station_id": "2-39-123-557",
+    "status": "active",
+    "reported_at": "2020-11-23 23:06:09",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 39,
+    "station_id": "2-39-123-557",
+    "status": "maintenance",
+    "reported_at": "2020-12-22 00:46:21",
+    "note": "charging cable needs inspection"
+  },
+  {
+    "status_id": 40,
+    "station_id": "2-39-123-557",
+    "status": "active",
+    "reported_at": "2020-12-25 17:07:06",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 41,
+    "station_id": "2-39-124-22",
+    "status": "active",
+    "reported_at": "2020-02-08 04:54:43",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 42,
+    "station_id": "2-39-124-22",
+    "status": "active",
+    "reported_at": "2020-03-12 02:08:19",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 43,
+    "station_id": "2-39-124-22",
+    "status": "active",
+    "reported_at": "2020-04-10 12:28:52",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 44,
+    "station_id": "2-39-124-22",
+    "status": "active",
+    "reported_at": "2020-04-22 15:38:25",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 45,
+    "station_id": "2-39-124-22",
+    "status": "active",
+    "reported_at": "2020-05-02 23:27:29",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 46,
+    "station_id": "2-39-124-22",
+    "status": "active",
+    "reported_at": "2020-06-14 08:31:29",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 47,
+    "station_id": "2-39-124-22",
+    "status": "active",
+    "reported_at": "2020-06-19 06:39:35",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 48,
+    "station_id": "2-39-124-22",
+    "status": "active",
+    "reported_at": "2020-06-24 21:31:36",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 49,
+    "station_id": "2-39-124-22",
+    "status": "active",
+    "reported_at": "2020-06-26 17:39:32",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 50,
+    "station_id": "2-39-124-22",
+    "status": "active",
+    "reported_at": "2020-07-05 01:58:00",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 51,
+    "station_id": "2-39-124-22",
+    "status": "offline",
+    "reported_at": "2020-07-19 01:45:48",
+    "note": "charger unavailable to drivers"
+  },
+  {
+    "status_id": 52,
+    "station_id": "2-39-124-22",
+    "status": "active",
+    "reported_at": "2020-09-24 17:03:01",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 53,
+    "station_id": "2-39-124-22",
+    "status": "active",
+    "reported_at": "2020-10-05 06:26:09",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 54,
+    "station_id": "2-39-124-22",
+    "status": "active",
+    "reported_at": "2020-10-09 17:12:46",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 55,
+    "station_id": "2-39-124-22",
+    "status": "active",
+    "reported_at": "2020-10-31 21:30:48",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 56,
+    "station_id": "2-39-124-22",
+    "status": "active",
+    "reported_at": "2020-11-11 07:28:06",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 57,
+    "station_id": "2-39-124-22",
+    "status": "active",
+    "reported_at": "2020-11-18 21:14:12",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 58,
+    "station_id": "2-39-124-22",
+    "status": "maintenance",
+    "reported_at": "2020-11-23 04:06:28",
+    "note": "charging cable needs inspection"
+  },
+  {
+    "status_id": 59,
+    "station_id": "2-39-124-22",
+    "status": "active",
+    "reported_at": "2020-12-22 01:18:15",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 60,
+    "station_id": "2-39-124-22",
+    "status": "active",
+    "reported_at": "2020-12-24 01:23:19",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 61,
+    "station_id": "2-39-124-558",
+    "status": "active",
+    "reported_at": "2020-01-06 11:43:06",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 62,
+    "station_id": "2-39-124-558",
+    "status": "active",
+    "reported_at": "2020-01-20 22:51:11",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 63,
+    "station_id": "2-39-124-558",
+    "status": "active",
+    "reported_at": "2020-01-29 12:26:53",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 64,
+    "station_id": "2-39-124-558",
+    "status": "active",
+    "reported_at": "2020-02-11 05:14:24",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 65,
+    "station_id": "2-39-124-558",
+    "status": "active",
+    "reported_at": "2020-02-27 16:27:31",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 66,
+    "station_id": "2-39-124-558",
+    "status": "active",
+    "reported_at": "2020-03-17 09:20:59",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 67,
+    "station_id": "2-39-124-558",
+    "status": "active",
+    "reported_at": "2020-04-28 20:10:01",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 68,
+    "station_id": "2-39-124-558",
+    "status": "active",
+    "reported_at": "2020-05-26 00:37:54",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 69,
+    "station_id": "2-39-124-558",
+    "status": "active",
+    "reported_at": "2020-05-31 04:59:10",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 70,
+    "station_id": "2-39-124-558",
+    "status": "active",
+    "reported_at": "2020-05-31 14:51:35",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 71,
+    "station_id": "2-39-124-558",
+    "status": "active",
+    "reported_at": "2020-06-09 00:28:59",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 72,
+    "station_id": "2-39-124-558",
+    "status": "active",
+    "reported_at": "2020-07-16 04:07:28",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 73,
+    "station_id": "2-39-124-558",
+    "status": "active",
+    "reported_at": "2020-07-20 23:02:22",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 74,
+    "station_id": "2-39-124-558",
+    "status": "active",
+    "reported_at": "2020-08-15 14:11:16",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 75,
+    "station_id": "2-39-124-558",
+    "status": "offline",
+    "reported_at": "2020-10-30 20:36:01",
+    "note": "station is not responding"
+  },
+  {
+    "status_id": 76,
+    "station_id": "2-39-124-558",
+    "status": "active",
+    "reported_at": "2020-10-31 06:10:15",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 77,
+    "station_id": "2-39-124-558",
+    "status": "active",
+    "reported_at": "2020-11-09 08:55:32",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 78,
+    "station_id": "2-39-124-558",
+    "status": "active",
+    "reported_at": "2020-11-09 19:03:33",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 79,
+    "station_id": "2-39-124-558",
+    "status": "active",
+    "reported_at": "2020-12-10 18:37:23",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 80,
+    "station_id": "2-39-124-558",
+    "status": "maintenance",
+    "reported_at": "2020-12-21 08:34:06",
+    "note": "charging connector inspection required"
+  },
+  {
+    "status_id": 81,
+    "station_id": "2-39-125-21",
+    "status": "active",
+    "reported_at": "2020-01-31 13:09:11",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 82,
+    "station_id": "2-39-125-21",
+    "status": "active",
+    "reported_at": "2020-03-03 06:56:58",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 83,
+    "station_id": "2-39-125-21",
+    "status": "active",
+    "reported_at": "2020-03-08 20:16:29",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 84,
+    "station_id": "2-39-125-21",
+    "status": "active",
+    "reported_at": "2020-03-13 05:41:39",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 85,
+    "station_id": "2-39-125-21",
+    "status": "maintenance",
+    "reported_at": "2020-03-13 16:49:08",
+    "note": "technician inspection requested"
+  },
+  {
+    "status_id": 86,
+    "station_id": "2-39-125-21",
+    "status": "maintenance",
+    "reported_at": "2020-04-12 07:28:23",
+    "note": "charging connector inspection required"
+  },
+  {
+    "status_id": 87,
+    "station_id": "2-39-125-21",
+    "status": "active",
+    "reported_at": "2020-04-15 22:44:40",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 88,
+    "station_id": "2-39-125-21",
+    "status": "maintenance",
+    "reported_at": "2020-04-28 09:57:37",
+    "note": "technician inspection requested"
+  },
+  {
+    "status_id": 89,
+    "station_id": "2-39-125-21",
+    "status": "active",
+    "reported_at": "2020-05-13 14:55:38",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 90,
+    "station_id": "2-39-125-21",
+    "status": "offline",
+    "reported_at": "2020-05-28 19:32:46",
+    "note": "charger unavailable to drivers"
+  },
+  {
+    "status_id": 91,
+    "station_id": "2-39-125-21",
+    "status": "maintenance",
+    "reported_at": "2020-05-31 10:47:50",
+    "note": "technician inspection requested"
+  },
+  {
+    "status_id": 92,
+    "station_id": "2-39-125-21",
+    "status": "active",
+    "reported_at": "2020-06-09 19:34:06",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 93,
+    "station_id": "2-39-125-21",
+    "status": "maintenance",
+    "reported_at": "2020-06-14 04:35:21",
+    "note": "charging connector inspection required"
+  },
+  {
+    "status_id": 94,
+    "station_id": "2-39-125-21",
+    "status": "active",
+    "reported_at": "2020-06-29 04:00:12",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 95,
+    "station_id": "2-39-125-21",
+    "status": "active",
+    "reported_at": "2020-07-12 05:59:26",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 96,
+    "station_id": "2-39-125-21",
+    "status": "maintenance",
+    "reported_at": "2020-07-26 00:01:18",
+    "note": "charging cable needs inspection"
+  },
+  {
+    "status_id": 97,
+    "station_id": "2-39-125-21",
+    "status": "active",
+    "reported_at": "2020-09-13 19:02:39",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 98,
+    "station_id": "2-39-125-21",
+    "status": "active",
+    "reported_at": "2020-10-30 00:26:20",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 99,
+    "station_id": "2-39-125-21",
+    "status": "active",
+    "reported_at": "2020-11-23 22:08:34",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 100,
+    "station_id": "2-39-125-21",
+    "status": "active",
+    "reported_at": "2020-12-03 02:46:28",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 101,
+    "station_id": "2-39-126-20",
+    "status": "active",
+    "reported_at": "2020-01-24 11:12:43",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 102,
+    "station_id": "2-39-126-20",
+    "status": "active",
+    "reported_at": "2020-01-25 19:43:52",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 103,
+    "station_id": "2-39-126-20",
+    "status": "active",
+    "reported_at": "2020-02-11 04:19:28",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 104,
+    "station_id": "2-39-126-20",
+    "status": "maintenance",
+    "reported_at": "2020-02-11 06:58:28",
+    "note": "technician inspection requested"
+  },
+  {
+    "status_id": 105,
+    "station_id": "2-39-126-20",
+    "status": "active",
+    "reported_at": "2020-03-07 12:23:58",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 106,
+    "station_id": "2-39-126-20",
+    "status": "active",
+    "reported_at": "2020-03-13 00:56:25",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 107,
+    "station_id": "2-39-126-20",
+    "status": "active",
+    "reported_at": "2020-04-17 11:49:59",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 108,
+    "station_id": "2-39-126-20",
+    "status": "active",
+    "reported_at": "2020-04-23 00:39:12",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 109,
+    "station_id": "2-39-126-20",
+    "status": "active",
+    "reported_at": "2020-05-01 18:30:22",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 110,
+    "station_id": "2-39-126-20",
+    "status": "active",
+    "reported_at": "2020-05-18 08:31:19",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 111,
+    "station_id": "2-39-126-20",
+    "status": "active",
+    "reported_at": "2020-07-15 18:06:11",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 112,
+    "station_id": "2-39-126-20",
+    "status": "active",
+    "reported_at": "2020-08-16 09:34:08",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 113,
+    "station_id": "2-39-126-20",
+    "status": "active",
+    "reported_at": "2020-09-01 16:49:55",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 114,
+    "station_id": "2-39-126-20",
+    "status": "active",
+    "reported_at": "2020-09-07 20:38:17",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 115,
+    "station_id": "2-39-126-20",
+    "status": "offline",
+    "reported_at": "2020-09-22 20:26:35",
+    "note": "station is not responding"
+  },
+  {
+    "status_id": 116,
+    "station_id": "2-39-126-20",
+    "status": "active",
+    "reported_at": "2020-10-07 12:52:02",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 117,
+    "station_id": "2-39-126-20",
+    "status": "active",
+    "reported_at": "2020-10-21 19:26:36",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 118,
+    "station_id": "2-39-126-20",
+    "status": "active",
+    "reported_at": "2020-11-07 14:08:14",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 119,
+    "station_id": "2-39-126-20",
+    "status": "active",
+    "reported_at": "2020-11-21 05:03:07",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 120,
+    "station_id": "2-39-126-20",
+    "status": "maintenance",
+    "reported_at": "2020-12-27 21:10:20",
+    "note": "technician inspection requested"
+  },
+  {
+    "status_id": 121,
+    "station_id": "2-39-126-560",
+    "status": "active",
+    "reported_at": "2020-01-08 20:55:51",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 122,
+    "station_id": "2-39-126-560",
+    "status": "active",
+    "reported_at": "2020-01-22 19:18:38",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 123,
+    "station_id": "2-39-126-560",
+    "status": "active",
+    "reported_at": "2020-02-17 12:03:38",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 124,
+    "station_id": "2-39-126-560",
+    "status": "active",
+    "reported_at": "2020-03-17 16:21:05",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 125,
+    "station_id": "2-39-126-560",
+    "status": "active",
+    "reported_at": "2020-04-22 10:51:16",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 126,
+    "station_id": "2-39-126-560",
+    "status": "active",
+    "reported_at": "2020-04-25 07:42:00",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 127,
+    "station_id": "2-39-126-560",
+    "status": "active",
+    "reported_at": "2020-05-03 20:12:01",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 128,
+    "station_id": "2-39-126-560",
+    "status": "active",
+    "reported_at": "2020-05-08 08:55:52",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 129,
+    "station_id": "2-39-126-560",
+    "status": "maintenance",
+    "reported_at": "2020-05-13 00:10:50",
+    "note": "charging connector inspection required"
+  },
+  {
+    "status_id": 130,
+    "station_id": "2-39-126-560",
+    "status": "maintenance",
+    "reported_at": "2020-06-10 19:20:01",
+    "note": "charging connector inspection required"
+  },
+  {
+    "status_id": 131,
+    "station_id": "2-39-126-560",
+    "status": "active",
+    "reported_at": "2020-07-29 13:16:04",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 132,
+    "station_id": "2-39-126-560",
+    "status": "active",
+    "reported_at": "2020-08-05 19:37:14",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 133,
+    "station_id": "2-39-126-560",
+    "status": "maintenance",
+    "reported_at": "2020-08-15 10:14:39",
+    "note": "charging connector inspection required"
+  },
+  {
+    "status_id": 134,
+    "station_id": "2-39-126-560",
+    "status": "active",
+    "reported_at": "2020-09-27 00:40:17",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 135,
+    "station_id": "2-39-126-560",
+    "status": "active",
+    "reported_at": "2020-10-09 09:18:41",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 136,
+    "station_id": "2-39-126-560",
+    "status": "active",
+    "reported_at": "2020-10-25 05:17:07",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 137,
+    "station_id": "2-39-126-560",
+    "status": "active",
+    "reported_at": "2020-10-25 17:00:10",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 138,
+    "station_id": "2-39-126-560",
+    "status": "active",
+    "reported_at": "2020-11-06 15:04:41",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 139,
+    "station_id": "2-39-126-560",
+    "status": "active",
+    "reported_at": "2020-12-16 16:12:06",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 140,
+    "station_id": "2-39-126-560",
+    "status": "maintenance",
+    "reported_at": "2020-12-21 16:26:44",
+    "note": "technician inspection requested"
+  },
+  {
+    "status_id": 141,
+    "station_id": "2-39-127-19",
+    "status": "active",
+    "reported_at": "2020-01-05 10:20:33",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 142,
+    "station_id": "2-39-127-19",
+    "status": "active",
+    "reported_at": "2020-01-22 20:20:29",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 143,
+    "station_id": "2-39-127-19",
+    "status": "offline",
+    "reported_at": "2020-01-23 15:21:59",
+    "note": "network connection lost"
+  },
+  {
+    "status_id": 144,
+    "station_id": "2-39-127-19",
+    "status": "active",
+    "reported_at": "2020-02-28 13:59:39",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 145,
+    "station_id": "2-39-127-19",
+    "status": "active",
+    "reported_at": "2020-03-27 03:41:10",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 146,
+    "station_id": "2-39-127-19",
+    "status": "active",
+    "reported_at": "2020-04-04 07:07:14",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 147,
+    "station_id": "2-39-127-19",
+    "status": "active",
+    "reported_at": "2020-05-03 07:17:43",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 148,
+    "station_id": "2-39-127-19",
+    "status": "maintenance",
+    "reported_at": "2020-07-01 17:47:52",
+    "note": "charging cable needs inspection"
+  },
+  {
+    "status_id": 149,
+    "station_id": "2-39-127-19",
+    "status": "active",
+    "reported_at": "2020-07-16 12:41:03",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 150,
+    "station_id": "2-39-127-19",
+    "status": "active",
+    "reported_at": "2020-07-21 02:56:08",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 151,
+    "station_id": "2-39-127-19",
+    "status": "active",
+    "reported_at": "2020-08-31 20:03:43",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 152,
+    "station_id": "2-39-127-19",
+    "status": "offline",
+    "reported_at": "2020-09-02 20:02:55",
+    "note": "power interruption reported"
+  },
+  {
+    "status_id": 153,
+    "station_id": "2-39-127-19",
+    "status": "active",
+    "reported_at": "2020-09-12 11:46:17",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 154,
+    "station_id": "2-39-127-19",
+    "status": "active",
+    "reported_at": "2020-09-20 18:04:24",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 155,
+    "station_id": "2-39-127-19",
+    "status": "active",
+    "reported_at": "2020-10-15 14:07:14",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 156,
+    "station_id": "2-39-127-19",
+    "status": "active",
+    "reported_at": "2020-10-16 09:41:58",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 157,
+    "station_id": "2-39-127-19",
+    "status": "active",
+    "reported_at": "2020-10-20 00:44:50",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 158,
+    "station_id": "2-39-127-19",
+    "status": "offline",
+    "reported_at": "2020-11-22 11:26:48",
+    "note": "station is not responding"
+  },
+  {
+    "status_id": 159,
+    "station_id": "2-39-127-19",
+    "status": "active",
+    "reported_at": "2020-11-30 19:25:14",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 160,
+    "station_id": "2-39-127-19",
+    "status": "active",
+    "reported_at": "2020-12-26 02:24:23",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 161,
+    "station_id": "2-39-128-18",
+    "status": "active",
+    "reported_at": "2020-01-17 03:38:01",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 162,
+    "station_id": "2-39-128-18",
+    "status": "active",
+    "reported_at": "2020-02-03 05:15:36",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 163,
+    "station_id": "2-39-128-18",
+    "status": "active",
+    "reported_at": "2020-02-10 17:56:20",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 164,
+    "station_id": "2-39-128-18",
+    "status": "active",
+    "reported_at": "2020-02-25 02:31:56",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 165,
+    "station_id": "2-39-128-18",
+    "status": "active",
+    "reported_at": "2020-03-02 09:04:34",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 166,
+    "station_id": "2-39-128-18",
+    "status": "active",
+    "reported_at": "2020-04-11 12:50:07",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 167,
+    "station_id": "2-39-128-18",
+    "status": "maintenance",
+    "reported_at": "2020-04-30 13:19:19",
+    "note": "preventive maintenance visit"
+  },
+  {
+    "status_id": 168,
+    "station_id": "2-39-128-18",
+    "status": "offline",
+    "reported_at": "2020-05-09 13:28:12",
+    "note": "charger unavailable to drivers"
+  },
+  {
+    "status_id": 169,
+    "station_id": "2-39-128-18",
+    "status": "maintenance",
+    "reported_at": "2020-05-27 19:16:48",
+    "note": "charging cable needs inspection"
+  },
+  {
+    "status_id": 170,
+    "station_id": "2-39-128-18",
+    "status": "active",
+    "reported_at": "2020-05-31 03:43:01",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 171,
+    "station_id": "2-39-128-18",
+    "status": "active",
+    "reported_at": "2020-06-01 17:35:53",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 172,
+    "station_id": "2-39-128-18",
+    "status": "active",
+    "reported_at": "2020-07-16 14:00:02",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 173,
+    "station_id": "2-39-128-18",
+    "status": "active",
+    "reported_at": "2020-07-19 15:01:23",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 174,
+    "station_id": "2-39-128-18",
+    "status": "active",
+    "reported_at": "2020-07-28 07:39:59",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 175,
+    "station_id": "2-39-128-18",
+    "status": "maintenance",
+    "reported_at": "2020-07-31 14:58:48",
+    "note": "scheduled maintenance"
+  },
+  {
+    "status_id": 176,
+    "station_id": "2-39-128-18",
+    "status": "active",
+    "reported_at": "2020-09-07 02:57:03",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 177,
+    "station_id": "2-39-128-18",
+    "status": "active",
+    "reported_at": "2020-09-14 00:08:27",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 178,
+    "station_id": "2-39-128-18",
+    "status": "active",
+    "reported_at": "2020-10-11 12:06:09",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 179,
+    "station_id": "2-39-128-18",
+    "status": "active",
+    "reported_at": "2020-10-13 08:24:50",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 180,
+    "station_id": "2-39-128-18",
+    "status": "active",
+    "reported_at": "2020-11-11 08:49:25",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 181,
+    "station_id": "2-39-128-562",
+    "status": "active",
+    "reported_at": "2020-02-15 15:38:09",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 182,
+    "station_id": "2-39-128-562",
+    "status": "active",
+    "reported_at": "2020-02-16 23:13:46",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 183,
+    "station_id": "2-39-128-562",
+    "status": "maintenance",
+    "reported_at": "2020-04-05 22:27:25",
+    "note": "scheduled maintenance"
+  },
+  {
+    "status_id": 184,
+    "station_id": "2-39-128-562",
+    "status": "maintenance",
+    "reported_at": "2020-04-11 23:20:27",
+    "note": "technician inspection requested"
+  },
+  {
+    "status_id": 185,
+    "station_id": "2-39-128-562",
+    "status": "active",
+    "reported_at": "2020-04-27 02:08:22",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 186,
+    "station_id": "2-39-128-562",
+    "status": "active",
+    "reported_at": "2020-05-15 01:43:20",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 187,
+    "station_id": "2-39-128-562",
+    "status": "active",
+    "reported_at": "2020-05-19 07:06:55",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 188,
+    "station_id": "2-39-128-562",
+    "status": "active",
+    "reported_at": "2020-05-28 01:01:41",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 189,
+    "station_id": "2-39-128-562",
+    "status": "active",
+    "reported_at": "2020-06-26 01:36:40",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 190,
+    "station_id": "2-39-128-562",
+    "status": "active",
+    "reported_at": "2020-07-03 05:33:04",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 191,
+    "station_id": "2-39-128-562",
+    "status": "active",
+    "reported_at": "2020-07-12 16:40:52",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 192,
+    "station_id": "2-39-128-562",
+    "status": "maintenance",
+    "reported_at": "2020-07-20 12:55:50",
+    "note": "technician inspection requested"
+  },
+  {
+    "status_id": 193,
+    "station_id": "2-39-128-562",
+    "status": "active",
+    "reported_at": "2020-08-03 18:30:06",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 194,
+    "station_id": "2-39-128-562",
+    "status": "active",
+    "reported_at": "2020-08-27 14:26:03",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 195,
+    "station_id": "2-39-128-562",
+    "status": "active",
+    "reported_at": "2020-09-08 11:33:44",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 196,
+    "station_id": "2-39-128-562",
+    "status": "active",
+    "reported_at": "2020-09-22 10:59:56",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 197,
+    "station_id": "2-39-128-562",
+    "status": "active",
+    "reported_at": "2020-11-12 14:57:53",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 198,
+    "station_id": "2-39-128-562",
+    "status": "maintenance",
+    "reported_at": "2020-11-17 19:30:50",
+    "note": "technician inspection requested"
+  },
+  {
+    "status_id": 199,
+    "station_id": "2-39-128-562",
+    "status": "active",
+    "reported_at": "2020-12-19 05:08:59",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 200,
+    "station_id": "2-39-128-562",
+    "status": "active",
+    "reported_at": "2020-12-22 09:28:28",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 201,
+    "station_id": "2-39-129-17",
+    "status": "active",
+    "reported_at": "2020-01-09 10:27:09",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 202,
+    "station_id": "2-39-129-17",
+    "status": "active",
+    "reported_at": "2020-02-17 20:38:40",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 203,
+    "station_id": "2-39-129-17",
+    "status": "maintenance",
+    "reported_at": "2020-02-25 17:11:21",
+    "note": "charging cable needs inspection"
+  },
+  {
+    "status_id": 204,
+    "station_id": "2-39-129-17",
+    "status": "active",
+    "reported_at": "2020-03-31 23:46:05",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 205,
+    "station_id": "2-39-129-17",
+    "status": "active",
+    "reported_at": "2020-04-14 01:06:08",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 206,
+    "station_id": "2-39-129-17",
+    "status": "active",
+    "reported_at": "2020-04-14 03:35:23",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 207,
+    "station_id": "2-39-129-17",
+    "status": "active",
+    "reported_at": "2020-04-23 23:19:59",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 208,
+    "station_id": "2-39-129-17",
+    "status": "active",
+    "reported_at": "2020-05-07 20:05:09",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 209,
+    "station_id": "2-39-129-17",
+    "status": "active",
+    "reported_at": "2020-05-08 20:20:08",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 210,
+    "station_id": "2-39-129-17",
+    "status": "active",
+    "reported_at": "2020-06-04 03:08:48",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 211,
+    "station_id": "2-39-129-17",
+    "status": "maintenance",
+    "reported_at": "2020-06-04 19:52:23",
+    "note": "preventive maintenance visit"
+  },
+  {
+    "status_id": 212,
+    "station_id": "2-39-129-17",
+    "status": "maintenance",
+    "reported_at": "2020-06-26 21:27:55",
+    "note": "preventive maintenance visit"
+  },
+  {
+    "status_id": 213,
+    "station_id": "2-39-129-17",
+    "status": "active",
+    "reported_at": "2020-08-01 11:53:37",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 214,
+    "station_id": "2-39-129-17",
+    "status": "active",
+    "reported_at": "2020-08-05 23:41:40",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 215,
+    "station_id": "2-39-129-17",
+    "status": "active",
+    "reported_at": "2020-08-11 01:41:17",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 216,
+    "station_id": "2-39-129-17",
+    "status": "active",
+    "reported_at": "2020-08-31 10:54:55",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 217,
+    "station_id": "2-39-129-17",
+    "status": "maintenance",
+    "reported_at": "2020-09-02 21:46:35",
+    "note": "charging cable needs inspection"
+  },
+  {
+    "status_id": 218,
+    "station_id": "2-39-129-17",
+    "status": "active",
+    "reported_at": "2020-09-18 19:13:29",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 219,
+    "station_id": "2-39-129-17",
+    "status": "active",
+    "reported_at": "2020-10-05 05:54:45",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 220,
+    "station_id": "2-39-129-17",
+    "status": "active",
+    "reported_at": "2020-10-26 23:29:45",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 221,
+    "station_id": "2-39-129-563",
+    "status": "active",
+    "reported_at": "2020-02-02 17:34:00",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 222,
+    "station_id": "2-39-129-563",
+    "status": "active",
+    "reported_at": "2020-02-07 02:59:13",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 223,
+    "station_id": "2-39-129-563",
+    "status": "active",
+    "reported_at": "2020-02-21 18:00:14",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 224,
+    "station_id": "2-39-129-563",
+    "status": "active",
+    "reported_at": "2020-03-01 12:24:47",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 225,
+    "station_id": "2-39-129-563",
+    "status": "offline",
+    "reported_at": "2020-03-07 07:45:47",
+    "note": "station failed remote health check"
+  },
+  {
+    "status_id": 226,
+    "station_id": "2-39-129-563",
+    "status": "active",
+    "reported_at": "2020-03-21 03:30:59",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 227,
+    "station_id": "2-39-129-563",
+    "status": "active",
+    "reported_at": "2020-03-26 04:59:46",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 228,
+    "station_id": "2-39-129-563",
+    "status": "active",
+    "reported_at": "2020-04-30 04:15:55",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 229,
+    "station_id": "2-39-129-563",
+    "status": "active",
+    "reported_at": "2020-05-08 03:40:07",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 230,
+    "station_id": "2-39-129-563",
+    "status": "maintenance",
+    "reported_at": "2020-06-10 23:05:08",
+    "note": "scheduled maintenance"
+  },
+  {
+    "status_id": 231,
+    "station_id": "2-39-129-563",
+    "status": "active",
+    "reported_at": "2020-06-28 23:47:48",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 232,
+    "station_id": "2-39-129-563",
+    "status": "active",
+    "reported_at": "2020-07-21 15:32:09",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 233,
+    "station_id": "2-39-129-563",
+    "status": "active",
+    "reported_at": "2020-08-05 03:43:30",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 234,
+    "station_id": "2-39-129-563",
+    "status": "active",
+    "reported_at": "2020-08-08 10:39:12",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 235,
+    "station_id": "2-39-129-563",
+    "status": "active",
+    "reported_at": "2020-08-16 18:26:39",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 236,
+    "station_id": "2-39-129-563",
+    "status": "active",
+    "reported_at": "2020-08-23 09:05:39",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 237,
+    "station_id": "2-39-129-563",
+    "status": "active",
+    "reported_at": "2020-09-18 10:08:48",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 238,
+    "station_id": "2-39-129-563",
+    "status": "maintenance",
+    "reported_at": "2020-09-21 12:41:16",
+    "note": "charging cable needs inspection"
+  },
+  {
+    "status_id": 239,
+    "station_id": "2-39-129-563",
+    "status": "active",
+    "reported_at": "2020-09-30 23:53:04",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 240,
+    "station_id": "2-39-129-563",
+    "status": "offline",
+    "reported_at": "2020-10-03 10:43:35",
+    "note": "power interruption reported"
+  },
+  {
+    "status_id": 241,
+    "station_id": "2-39-130-31",
+    "status": "active",
+    "reported_at": "2020-01-31 07:38:45",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 242,
+    "station_id": "2-39-130-31",
+    "status": "active",
+    "reported_at": "2020-02-05 05:33:21",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 243,
+    "station_id": "2-39-130-31",
+    "status": "active",
+    "reported_at": "2020-03-08 17:02:15",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 244,
+    "station_id": "2-39-130-31",
+    "status": "offline",
+    "reported_at": "2020-03-11 08:32:28",
+    "note": "station is not responding"
+  },
+  {
+    "status_id": 245,
+    "station_id": "2-39-130-31",
+    "status": "active",
+    "reported_at": "2020-04-09 23:58:55",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 246,
+    "station_id": "2-39-130-31",
+    "status": "active",
+    "reported_at": "2020-05-03 11:22:25",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 247,
+    "station_id": "2-39-130-31",
+    "status": "active",
+    "reported_at": "2020-05-06 06:07:41",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 248,
+    "station_id": "2-39-130-31",
+    "status": "maintenance",
+    "reported_at": "2020-05-11 21:23:15",
+    "note": "technician inspection requested"
+  },
+  {
+    "status_id": 249,
+    "station_id": "2-39-130-31",
+    "status": "maintenance",
+    "reported_at": "2020-05-19 20:10:56",
+    "note": "preventive maintenance visit"
+  },
+  {
+    "status_id": 250,
+    "station_id": "2-39-130-31",
+    "status": "active",
+    "reported_at": "2020-07-08 23:59:48",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 251,
+    "station_id": "2-39-130-31",
+    "status": "active",
+    "reported_at": "2020-07-16 22:08:03",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 252,
+    "station_id": "2-39-130-31",
+    "status": "active",
+    "reported_at": "2020-07-21 21:31:15",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 253,
+    "station_id": "2-39-130-31",
+    "status": "active",
+    "reported_at": "2020-08-06 06:37:08",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 254,
+    "station_id": "2-39-130-31",
+    "status": "active",
+    "reported_at": "2020-08-19 09:32:36",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 255,
+    "station_id": "2-39-130-31",
+    "status": "maintenance",
+    "reported_at": "2020-09-13 12:50:52",
+    "note": "charging connector inspection required"
+  },
+  {
+    "status_id": 256,
+    "station_id": "2-39-130-31",
+    "status": "maintenance",
+    "reported_at": "2020-10-21 21:24:28",
+    "note": "charging cable needs inspection"
+  },
+  {
+    "status_id": 257,
+    "station_id": "2-39-130-31",
+    "status": "active",
+    "reported_at": "2020-11-05 21:14:33",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 258,
+    "station_id": "2-39-130-31",
+    "status": "active",
+    "reported_at": "2020-11-27 07:00:00",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 259,
+    "station_id": "2-39-130-31",
+    "status": "offline",
+    "reported_at": "2020-12-01 08:23:55",
+    "note": "network connection lost"
+  },
+  {
+    "status_id": 260,
+    "station_id": "2-39-130-31",
+    "status": "active",
+    "reported_at": "2020-12-04 11:16:03",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 261,
+    "station_id": "2-39-130-564",
+    "status": "active",
+    "reported_at": "2020-01-12 06:23:22",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 262,
+    "station_id": "2-39-130-564",
+    "status": "active",
+    "reported_at": "2020-01-21 19:59:13",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 263,
+    "station_id": "2-39-130-564",
+    "status": "active",
+    "reported_at": "2020-02-19 16:56:51",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 264,
+    "station_id": "2-39-130-564",
+    "status": "active",
+    "reported_at": "2020-02-29 18:26:15",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 265,
+    "station_id": "2-39-130-564",
+    "status": "active",
+    "reported_at": "2020-03-06 08:36:56",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 266,
+    "station_id": "2-39-130-564",
+    "status": "active",
+    "reported_at": "2020-03-13 02:14:08",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 267,
+    "station_id": "2-39-130-564",
+    "status": "active",
+    "reported_at": "2020-03-13 10:58:39",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 268,
+    "station_id": "2-39-130-564",
+    "status": "active",
+    "reported_at": "2020-04-26 18:14:38",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 269,
+    "station_id": "2-39-130-564",
+    "status": "active",
+    "reported_at": "2020-05-18 12:13:36",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 270,
+    "station_id": "2-39-130-564",
+    "status": "active",
+    "reported_at": "2020-06-09 17:59:17",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 271,
+    "station_id": "2-39-130-564",
+    "status": "maintenance",
+    "reported_at": "2020-06-26 14:17:26",
+    "note": "scheduled maintenance"
+  },
+  {
+    "status_id": 272,
+    "station_id": "2-39-130-564",
+    "status": "active",
+    "reported_at": "2020-07-09 04:43:44",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 273,
+    "station_id": "2-39-130-564",
+    "status": "active",
+    "reported_at": "2020-07-31 01:44:42",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 274,
+    "station_id": "2-39-130-564",
+    "status": "active",
+    "reported_at": "2020-08-29 20:54:34",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 275,
+    "station_id": "2-39-130-564",
+    "status": "active",
+    "reported_at": "2020-09-06 00:39:04",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 276,
+    "station_id": "2-39-130-564",
+    "status": "active",
+    "reported_at": "2020-09-21 01:22:22",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 277,
+    "station_id": "2-39-130-564",
+    "status": "active",
+    "reported_at": "2020-09-26 02:45:55",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 278,
+    "station_id": "2-39-130-564",
+    "status": "maintenance",
+    "reported_at": "2020-09-26 03:03:04",
+    "note": "charging connector inspection required"
+  },
+  {
+    "status_id": 279,
+    "station_id": "2-39-130-564",
+    "status": "offline",
+    "reported_at": "2020-10-18 19:10:08",
+    "note": "station failed remote health check"
+  },
+  {
+    "status_id": 280,
+    "station_id": "2-39-130-564",
+    "status": "offline",
+    "reported_at": "2020-12-20 08:00:11",
+    "note": "power interruption reported"
+  },
+  {
+    "status_id": 281,
+    "station_id": "2-39-131-30",
+    "status": "active",
+    "reported_at": "2020-01-31 14:38:38",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 282,
+    "station_id": "2-39-131-30",
+    "status": "active",
+    "reported_at": "2020-02-05 15:17:55",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 283,
+    "station_id": "2-39-131-30",
+    "status": "active",
+    "reported_at": "2020-02-14 17:14:52",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 284,
+    "station_id": "2-39-131-30",
+    "status": "active",
+    "reported_at": "2020-02-14 23:49:36",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 285,
+    "station_id": "2-39-131-30",
+    "status": "active",
+    "reported_at": "2020-03-02 09:17:12",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 286,
+    "station_id": "2-39-131-30",
+    "status": "active",
+    "reported_at": "2020-03-07 20:17:30",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 287,
+    "station_id": "2-39-131-30",
+    "status": "active",
+    "reported_at": "2020-03-16 21:41:34",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 288,
+    "station_id": "2-39-131-30",
+    "status": "maintenance",
+    "reported_at": "2020-03-20 01:23:22",
+    "note": "preventive maintenance visit"
+  },
+  {
+    "status_id": 289,
+    "station_id": "2-39-131-30",
+    "status": "offline",
+    "reported_at": "2020-03-22 23:09:40",
+    "note": "station is not responding"
+  },
+  {
+    "status_id": 290,
+    "station_id": "2-39-131-30",
+    "status": "maintenance",
+    "reported_at": "2020-05-17 10:55:01",
+    "note": "charging cable needs inspection"
+  },
+  {
+    "status_id": 291,
+    "station_id": "2-39-131-30",
+    "status": "active",
+    "reported_at": "2020-07-06 02:45:50",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 292,
+    "station_id": "2-39-131-30",
+    "status": "active",
+    "reported_at": "2020-08-23 14:00:11",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 293,
+    "station_id": "2-39-131-30",
+    "status": "active",
+    "reported_at": "2020-08-29 15:11:14",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 294,
+    "station_id": "2-39-131-30",
+    "status": "offline",
+    "reported_at": "2020-09-20 16:56:42",
+    "note": "power interruption reported"
+  },
+  {
+    "status_id": 295,
+    "station_id": "2-39-131-30",
+    "status": "active",
+    "reported_at": "2020-09-24 03:47:39",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 296,
+    "station_id": "2-39-131-30",
+    "status": "offline",
+    "reported_at": "2020-10-04 14:28:44",
+    "note": "station is not responding"
+  },
+  {
+    "status_id": 297,
+    "station_id": "2-39-131-30",
+    "status": "active",
+    "reported_at": "2020-10-14 00:28:13",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 298,
+    "station_id": "2-39-131-30",
+    "status": "active",
+    "reported_at": "2020-10-20 14:55:26",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 299,
+    "station_id": "2-39-131-30",
+    "status": "maintenance",
+    "reported_at": "2020-12-07 06:10:12",
+    "note": "scheduled maintenance"
+  },
+  {
+    "status_id": 300,
+    "station_id": "2-39-131-30",
+    "status": "maintenance",
+    "reported_at": "2020-12-14 08:01:46",
+    "note": "technician inspection requested"
+  },
+  {
+    "status_id": 301,
+    "station_id": "2-39-138-29",
+    "status": "active",
+    "reported_at": "2020-01-09 12:44:28",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 302,
+    "station_id": "2-39-138-29",
+    "status": "offline",
+    "reported_at": "2020-01-15 11:00:40",
+    "note": "network connection lost"
+  },
+  {
+    "status_id": 303,
+    "station_id": "2-39-138-29",
+    "status": "active",
+    "reported_at": "2020-01-17 06:17:12",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 304,
+    "station_id": "2-39-138-29",
+    "status": "active",
+    "reported_at": "2020-01-28 06:46:48",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 305,
+    "station_id": "2-39-138-29",
+    "status": "maintenance",
+    "reported_at": "2020-02-01 06:42:38",
+    "note": "scheduled maintenance"
+  },
+  {
+    "status_id": 306,
+    "station_id": "2-39-138-29",
+    "status": "offline",
+    "reported_at": "2020-02-12 06:03:49",
+    "note": "station is not responding"
+  },
+  {
+    "status_id": 307,
+    "station_id": "2-39-138-29",
+    "status": "maintenance",
+    "reported_at": "2020-05-29 23:57:47",
+    "note": "charging cable needs inspection"
+  },
+  {
+    "status_id": 308,
+    "station_id": "2-39-138-29",
+    "status": "active",
+    "reported_at": "2020-06-24 17:01:46",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 309,
+    "station_id": "2-39-138-29",
+    "status": "maintenance",
+    "reported_at": "2020-06-26 11:12:47",
+    "note": "technician inspection requested"
+  },
+  {
+    "status_id": 310,
+    "station_id": "2-39-138-29",
+    "status": "offline",
+    "reported_at": "2020-07-04 21:09:38",
+    "note": "network connection lost"
+  },
+  {
+    "status_id": 311,
+    "station_id": "2-39-138-29",
+    "status": "active",
+    "reported_at": "2020-07-23 21:56:17",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 312,
+    "station_id": "2-39-138-29",
+    "status": "active",
+    "reported_at": "2020-07-29 00:27:39",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 313,
+    "station_id": "2-39-138-29",
+    "status": "active",
+    "reported_at": "2020-08-07 04:23:01",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 314,
+    "station_id": "2-39-138-29",
+    "status": "active",
+    "reported_at": "2020-08-11 07:10:11",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 315,
+    "station_id": "2-39-138-29",
+    "status": "active",
+    "reported_at": "2020-08-17 05:08:31",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 316,
+    "station_id": "2-39-138-29",
+    "status": "active",
+    "reported_at": "2020-08-26 04:46:31",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 317,
+    "station_id": "2-39-138-29",
+    "status": "active",
+    "reported_at": "2020-09-07 16:12:28",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 318,
+    "station_id": "2-39-138-29",
+    "status": "active",
+    "reported_at": "2020-11-06 08:28:42",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 319,
+    "station_id": "2-39-138-29",
+    "status": "active",
+    "reported_at": "2020-11-06 18:18:49",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 320,
+    "station_id": "2-39-138-29",
+    "status": "active",
+    "reported_at": "2020-12-24 06:53:44",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 321,
+    "station_id": "2-39-138-566",
+    "status": "active",
+    "reported_at": "2020-01-11 05:06:45",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 322,
+    "station_id": "2-39-138-566",
+    "status": "offline",
+    "reported_at": "2020-02-24 11:34:46",
+    "note": "station is not responding"
+  },
+  {
+    "status_id": 323,
+    "station_id": "2-39-138-566",
+    "status": "active",
+    "reported_at": "2020-04-03 14:37:04",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 324,
+    "station_id": "2-39-138-566",
+    "status": "active",
+    "reported_at": "2020-04-13 19:29:21",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 325,
+    "station_id": "2-39-138-566",
+    "status": "active",
+    "reported_at": "2020-04-24 10:32:42",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 326,
+    "station_id": "2-39-138-566",
+    "status": "maintenance",
+    "reported_at": "2020-05-01 21:32:18",
+    "note": "scheduled maintenance"
+  },
+  {
+    "status_id": 327,
+    "station_id": "2-39-138-566",
+    "status": "maintenance",
+    "reported_at": "2020-05-17 06:34:37",
+    "note": "preventive maintenance visit"
+  },
+  {
+    "status_id": 328,
+    "station_id": "2-39-138-566",
+    "status": "active",
+    "reported_at": "2020-06-16 15:49:28",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 329,
+    "station_id": "2-39-138-566",
+    "status": "active",
+    "reported_at": "2020-06-29 18:02:24",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 330,
+    "station_id": "2-39-138-566",
+    "status": "active",
+    "reported_at": "2020-07-20 22:49:13",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 331,
+    "station_id": "2-39-138-566",
+    "status": "active",
+    "reported_at": "2020-07-21 11:19:46",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 332,
+    "station_id": "2-39-138-566",
+    "status": "active",
+    "reported_at": "2020-07-24 15:38:43",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 333,
+    "station_id": "2-39-138-566",
+    "status": "offline",
+    "reported_at": "2020-08-13 09:12:06",
+    "note": "station is not responding"
+  },
+  {
+    "status_id": 334,
+    "station_id": "2-39-138-566",
+    "status": "active",
+    "reported_at": "2020-08-21 21:03:12",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 335,
+    "station_id": "2-39-138-566",
+    "status": "active",
+    "reported_at": "2020-10-12 13:09:14",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 336,
+    "station_id": "2-39-138-566",
+    "status": "active",
+    "reported_at": "2020-10-24 20:49:39",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 337,
+    "station_id": "2-39-138-566",
+    "status": "active",
+    "reported_at": "2020-10-31 17:01:20",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 338,
+    "station_id": "2-39-138-566",
+    "status": "maintenance",
+    "reported_at": "2020-11-30 05:13:09",
+    "note": "charging cable needs inspection"
+  },
+  {
+    "status_id": 339,
+    "station_id": "2-39-138-566",
+    "status": "active",
+    "reported_at": "2020-12-01 09:38:21",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 340,
+    "station_id": "2-39-138-566",
+    "status": "offline",
+    "reported_at": "2020-12-03 16:29:16",
+    "note": "network connection lost"
+  },
+  {
+    "status_id": 341,
+    "station_id": "2-39-139-28",
+    "status": "active",
+    "reported_at": "2020-01-03 20:04:02",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 342,
+    "station_id": "2-39-139-28",
+    "status": "active",
+    "reported_at": "2020-01-17 22:25:33",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 343,
+    "station_id": "2-39-139-28",
+    "status": "active",
+    "reported_at": "2020-01-19 06:12:20",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 344,
+    "station_id": "2-39-139-28",
+    "status": "active",
+    "reported_at": "2020-01-26 10:35:07",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 345,
+    "station_id": "2-39-139-28",
+    "status": "active",
+    "reported_at": "2020-01-28 16:40:10",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 346,
+    "station_id": "2-39-139-28",
+    "status": "active",
+    "reported_at": "2020-02-05 09:01:01",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 347,
+    "station_id": "2-39-139-28",
+    "status": "active",
+    "reported_at": "2020-03-06 09:03:33",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 348,
+    "station_id": "2-39-139-28",
+    "status": "active",
+    "reported_at": "2020-03-20 11:00:24",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 349,
+    "station_id": "2-39-139-28",
+    "status": "active",
+    "reported_at": "2020-04-10 17:14:24",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 350,
+    "station_id": "2-39-139-28",
+    "status": "active",
+    "reported_at": "2020-04-18 09:36:41",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 351,
+    "station_id": "2-39-139-28",
+    "status": "active",
+    "reported_at": "2020-04-21 10:06:33",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 352,
+    "station_id": "2-39-139-28",
+    "status": "active",
+    "reported_at": "2020-04-23 03:15:06",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 353,
+    "station_id": "2-39-139-28",
+    "status": "active",
+    "reported_at": "2020-07-02 01:36:21",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 354,
+    "station_id": "2-39-139-28",
+    "status": "active",
+    "reported_at": "2020-07-05 23:32:13",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 355,
+    "station_id": "2-39-139-28",
+    "status": "active",
+    "reported_at": "2020-08-27 21:49:08",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 356,
+    "station_id": "2-39-139-28",
+    "status": "active",
+    "reported_at": "2020-09-08 00:26:07",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 357,
+    "station_id": "2-39-139-28",
+    "status": "offline",
+    "reported_at": "2020-09-09 14:28:19",
+    "note": "power interruption reported"
+  },
+  {
+    "status_id": 358,
+    "station_id": "2-39-139-28",
+    "status": "maintenance",
+    "reported_at": "2020-09-09 21:39:58",
+    "note": "charging connector inspection required"
+  },
+  {
+    "status_id": 359,
+    "station_id": "2-39-139-28",
+    "status": "maintenance",
+    "reported_at": "2020-09-10 03:50:58",
+    "note": "preventive maintenance visit"
+  },
+  {
+    "status_id": 360,
+    "station_id": "2-39-139-28",
+    "status": "maintenance",
+    "reported_at": "2020-12-25 03:41:22",
+    "note": "charging connector inspection required"
+  },
+  {
+    "status_id": 361,
+    "station_id": "2-39-78-360",
+    "status": "active",
+    "reported_at": "2020-01-01 14:02:50",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 362,
+    "station_id": "2-39-78-360",
+    "status": "active",
+    "reported_at": "2020-02-04 19:02:09",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 363,
+    "station_id": "2-39-78-360",
+    "status": "active",
+    "reported_at": "2020-02-14 19:19:40",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 364,
+    "station_id": "2-39-78-360",
+    "status": "active",
+    "reported_at": "2020-02-23 20:39:27",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 365,
+    "station_id": "2-39-78-360",
+    "status": "maintenance",
+    "reported_at": "2020-03-09 05:42:05",
+    "note": "technician inspection requested"
+  },
+  {
+    "status_id": 366,
+    "station_id": "2-39-78-360",
+    "status": "active",
+    "reported_at": "2020-05-05 04:55:40",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 367,
+    "station_id": "2-39-78-360",
+    "status": "maintenance",
+    "reported_at": "2020-05-11 12:04:31",
+    "note": "charging cable needs inspection"
+  },
+  {
+    "status_id": 368,
+    "station_id": "2-39-78-360",
+    "status": "active",
+    "reported_at": "2020-05-27 09:35:55",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 369,
+    "station_id": "2-39-78-360",
+    "status": "active",
+    "reported_at": "2020-06-11 13:54:27",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 370,
+    "station_id": "2-39-78-360",
+    "status": "active",
+    "reported_at": "2020-07-11 05:31:40",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 371,
+    "station_id": "2-39-78-360",
+    "status": "maintenance",
+    "reported_at": "2020-07-12 09:52:19",
+    "note": "charging cable needs inspection"
+  },
+  {
+    "status_id": 372,
+    "station_id": "2-39-78-360",
+    "status": "active",
+    "reported_at": "2020-07-17 23:05:10",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 373,
+    "station_id": "2-39-78-360",
+    "status": "maintenance",
+    "reported_at": "2020-08-01 15:27:22",
+    "note": "charging connector inspection required"
+  },
+  {
+    "status_id": 374,
+    "station_id": "2-39-78-360",
+    "status": "active",
+    "reported_at": "2020-08-08 02:32:26",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 375,
+    "station_id": "2-39-78-360",
+    "status": "offline",
+    "reported_at": "2020-09-01 09:12:27",
+    "note": "station failed remote health check"
+  },
+  {
+    "status_id": 376,
+    "station_id": "2-39-78-360",
+    "status": "active",
+    "reported_at": "2020-09-17 12:37:51",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 377,
+    "station_id": "2-39-78-360",
+    "status": "active",
+    "reported_at": "2020-09-23 16:36:42",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 378,
+    "station_id": "2-39-78-360",
+    "status": "active",
+    "reported_at": "2020-09-28 01:37:39",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 379,
+    "station_id": "2-39-78-360",
+    "status": "offline",
+    "reported_at": "2020-11-06 06:16:20",
+    "note": "station is not responding"
+  },
+  {
+    "status_id": 380,
+    "station_id": "2-39-78-360",
+    "status": "active",
+    "reported_at": "2020-11-12 06:48:49",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 381,
+    "station_id": "2-39-78-361",
+    "status": "active",
+    "reported_at": "2020-01-02 22:41:04",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 382,
+    "station_id": "2-39-78-361",
+    "status": "active",
+    "reported_at": "2020-01-27 12:11:51",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 383,
+    "station_id": "2-39-78-361",
+    "status": "active",
+    "reported_at": "2020-02-07 08:57:33",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 384,
+    "station_id": "2-39-78-361",
+    "status": "active",
+    "reported_at": "2020-02-17 04:20:35",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 385,
+    "station_id": "2-39-78-361",
+    "status": "maintenance",
+    "reported_at": "2020-02-28 11:21:59",
+    "note": "charging connector inspection required"
+  },
+  {
+    "status_id": 386,
+    "station_id": "2-39-78-361",
+    "status": "active",
+    "reported_at": "2020-03-29 07:44:37",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 387,
+    "station_id": "2-39-78-361",
+    "status": "active",
+    "reported_at": "2020-04-16 07:10:44",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 388,
+    "station_id": "2-39-78-361",
+    "status": "offline",
+    "reported_at": "2020-05-06 02:59:26",
+    "note": "charger unavailable to drivers"
+  },
+  {
+    "status_id": 389,
+    "station_id": "2-39-78-361",
+    "status": "active",
+    "reported_at": "2020-05-28 00:28:11",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 390,
+    "station_id": "2-39-78-361",
+    "status": "active",
+    "reported_at": "2020-05-29 14:22:47",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 391,
+    "station_id": "2-39-78-361",
+    "status": "active",
+    "reported_at": "2020-06-19 09:42:52",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 392,
+    "station_id": "2-39-78-361",
+    "status": "active",
+    "reported_at": "2020-06-21 08:54:17",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 393,
+    "station_id": "2-39-78-361",
+    "status": "active",
+    "reported_at": "2020-06-21 11:06:52",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 394,
+    "station_id": "2-39-78-361",
+    "status": "active",
+    "reported_at": "2020-08-16 01:40:29",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 395,
+    "station_id": "2-39-78-361",
+    "status": "active",
+    "reported_at": "2020-08-30 20:41:50",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 396,
+    "station_id": "2-39-78-361",
+    "status": "active",
+    "reported_at": "2020-09-03 00:52:09",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 397,
+    "station_id": "2-39-78-361",
+    "status": "active",
+    "reported_at": "2020-10-25 18:37:38",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 398,
+    "station_id": "2-39-78-361",
+    "status": "maintenance",
+    "reported_at": "2020-11-10 11:02:11",
+    "note": "preventive maintenance visit"
+  },
+  {
+    "status_id": 399,
+    "station_id": "2-39-78-361",
+    "status": "active",
+    "reported_at": "2020-11-19 02:18:32",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 400,
+    "station_id": "2-39-78-361",
+    "status": "active",
+    "reported_at": "2020-11-24 11:12:42",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 401,
+    "station_id": "2-39-78-362",
+    "status": "active",
+    "reported_at": "2020-01-15 01:03:09",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 402,
+    "station_id": "2-39-78-362",
+    "status": "active",
+    "reported_at": "2020-01-23 23:32:36",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 403,
+    "station_id": "2-39-78-362",
+    "status": "active",
+    "reported_at": "2020-02-18 13:25:07",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 404,
+    "station_id": "2-39-78-362",
+    "status": "active",
+    "reported_at": "2020-03-06 22:58:01",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 405,
+    "station_id": "2-39-78-362",
+    "status": "maintenance",
+    "reported_at": "2020-03-16 21:10:10",
+    "note": "charging cable needs inspection"
+  },
+  {
+    "status_id": 406,
+    "station_id": "2-39-78-362",
+    "status": "active",
+    "reported_at": "2020-04-26 14:59:35",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 407,
+    "station_id": "2-39-78-362",
+    "status": "active",
+    "reported_at": "2020-04-29 06:38:08",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 408,
+    "station_id": "2-39-78-362",
+    "status": "maintenance",
+    "reported_at": "2020-05-25 16:40:59",
+    "note": "charging cable needs inspection"
+  },
+  {
+    "status_id": 409,
+    "station_id": "2-39-78-362",
+    "status": "active",
+    "reported_at": "2020-06-16 04:38:21",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 410,
+    "station_id": "2-39-78-362",
+    "status": "active",
+    "reported_at": "2020-06-21 18:06:18",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 411,
+    "station_id": "2-39-78-362",
+    "status": "active",
+    "reported_at": "2020-07-11 23:24:19",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 412,
+    "station_id": "2-39-78-362",
+    "status": "maintenance",
+    "reported_at": "2020-08-13 10:20:05",
+    "note": "charging connector inspection required"
+  },
+  {
+    "status_id": 413,
+    "station_id": "2-39-78-362",
+    "status": "active",
+    "reported_at": "2020-08-25 14:43:23",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 414,
+    "station_id": "2-39-78-362",
+    "status": "active",
+    "reported_at": "2020-09-04 03:21:32",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 415,
+    "station_id": "2-39-78-362",
+    "status": "active",
+    "reported_at": "2020-09-17 06:09:04",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 416,
+    "station_id": "2-39-78-362",
+    "status": "active",
+    "reported_at": "2020-09-21 10:36:59",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 417,
+    "station_id": "2-39-78-362",
+    "status": "active",
+    "reported_at": "2020-10-13 13:43:03",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 418,
+    "station_id": "2-39-78-362",
+    "status": "active",
+    "reported_at": "2020-11-06 13:02:50",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 419,
+    "station_id": "2-39-78-362",
+    "status": "active",
+    "reported_at": "2020-11-16 07:31:22",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 420,
+    "station_id": "2-39-78-362",
+    "status": "active",
+    "reported_at": "2020-11-25 05:22:39",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 421,
+    "station_id": "2-39-78-363",
+    "status": "active",
+    "reported_at": "2020-01-02 08:03:21",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 422,
+    "station_id": "2-39-78-363",
+    "status": "maintenance",
+    "reported_at": "2020-02-07 13:25:50",
+    "note": "charging connector inspection required"
+  },
+  {
+    "status_id": 423,
+    "station_id": "2-39-78-363",
+    "status": "active",
+    "reported_at": "2020-02-08 05:45:36",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 424,
+    "station_id": "2-39-78-363",
+    "status": "active",
+    "reported_at": "2020-02-15 09:48:35",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 425,
+    "station_id": "2-39-78-363",
+    "status": "maintenance",
+    "reported_at": "2020-02-17 19:35:56",
+    "note": "charging connector inspection required"
+  },
+  {
+    "status_id": 426,
+    "station_id": "2-39-78-363",
+    "status": "maintenance",
+    "reported_at": "2020-03-25 09:49:26",
+    "note": "charging cable needs inspection"
+  },
+  {
+    "status_id": 427,
+    "station_id": "2-39-78-363",
+    "status": "maintenance",
+    "reported_at": "2020-04-01 06:24:58",
+    "note": "technician inspection requested"
+  },
+  {
+    "status_id": 428,
+    "station_id": "2-39-78-363",
+    "status": "active",
+    "reported_at": "2020-04-30 15:03:14",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 429,
+    "station_id": "2-39-78-363",
+    "status": "active",
+    "reported_at": "2020-05-04 17:45:47",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 430,
+    "station_id": "2-39-78-363",
+    "status": "active",
+    "reported_at": "2020-05-14 18:21:53",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 431,
+    "station_id": "2-39-78-363",
+    "status": "offline",
+    "reported_at": "2020-06-03 09:22:50",
+    "note": "station is not responding"
+  },
+  {
+    "status_id": 432,
+    "station_id": "2-39-78-363",
+    "status": "offline",
+    "reported_at": "2020-06-10 16:47:26",
+    "note": "power interruption reported"
+  },
+  {
+    "status_id": 433,
+    "station_id": "2-39-78-363",
+    "status": "maintenance",
+    "reported_at": "2020-06-26 14:56:51",
+    "note": "preventive maintenance visit"
+  },
+  {
+    "status_id": 434,
+    "station_id": "2-39-78-363",
+    "status": "active",
+    "reported_at": "2020-07-19 08:47:39",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 435,
+    "station_id": "2-39-78-363",
+    "status": "active",
+    "reported_at": "2020-08-21 14:16:57",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 436,
+    "station_id": "2-39-78-363",
+    "status": "active",
+    "reported_at": "2020-08-31 05:05:33",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 437,
+    "station_id": "2-39-78-363",
+    "status": "active",
+    "reported_at": "2020-09-03 23:13:14",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 438,
+    "station_id": "2-39-78-363",
+    "status": "active",
+    "reported_at": "2020-12-08 07:57:18",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 439,
+    "station_id": "2-39-78-363",
+    "status": "active",
+    "reported_at": "2020-12-11 20:10:26",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 440,
+    "station_id": "2-39-78-363",
+    "status": "active",
+    "reported_at": "2020-12-14 13:07:32",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 441,
+    "station_id": "2-39-78-364",
+    "status": "active",
+    "reported_at": "2020-01-05 06:13:05",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 442,
+    "station_id": "2-39-78-364",
+    "status": "maintenance",
+    "reported_at": "2020-01-27 16:12:50",
+    "note": "charging connector inspection required"
+  },
+  {
+    "status_id": 443,
+    "station_id": "2-39-78-364",
+    "status": "active",
+    "reported_at": "2020-02-12 07:43:35",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 444,
+    "station_id": "2-39-78-364",
+    "status": "active",
+    "reported_at": "2020-02-25 00:13:50",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 445,
+    "station_id": "2-39-78-364",
+    "status": "active",
+    "reported_at": "2020-03-06 14:07:43",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 446,
+    "station_id": "2-39-78-364",
+    "status": "active",
+    "reported_at": "2020-04-06 08:12:43",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 447,
+    "station_id": "2-39-78-364",
+    "status": "maintenance",
+    "reported_at": "2020-04-09 07:39:24",
+    "note": "charging cable needs inspection"
+  },
+  {
+    "status_id": 448,
+    "station_id": "2-39-78-364",
+    "status": "active",
+    "reported_at": "2020-04-10 05:55:00",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 449,
+    "station_id": "2-39-78-364",
+    "status": "active",
+    "reported_at": "2020-04-29 10:24:16",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 450,
+    "station_id": "2-39-78-364",
+    "status": "active",
+    "reported_at": "2020-05-15 22:56:51",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 451,
+    "station_id": "2-39-78-364",
+    "status": "active",
+    "reported_at": "2020-06-13 21:39:40",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 452,
+    "station_id": "2-39-78-364",
+    "status": "active",
+    "reported_at": "2020-07-22 11:49:19",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 453,
+    "station_id": "2-39-78-364",
+    "status": "active",
+    "reported_at": "2020-07-30 16:00:44",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 454,
+    "station_id": "2-39-78-364",
+    "status": "active",
+    "reported_at": "2020-08-21 23:46:40",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 455,
+    "station_id": "2-39-78-364",
+    "status": "active",
+    "reported_at": "2020-08-23 11:53:37",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 456,
+    "station_id": "2-39-78-364",
+    "status": "maintenance",
+    "reported_at": "2020-09-05 15:58:47",
+    "note": "technician inspection requested"
+  },
+  {
+    "status_id": 457,
+    "station_id": "2-39-78-364",
+    "status": "offline",
+    "reported_at": "2020-10-03 20:28:11",
+    "note": "charger unavailable to drivers"
+  },
+  {
+    "status_id": 458,
+    "station_id": "2-39-78-364",
+    "status": "active",
+    "reported_at": "2020-10-28 09:02:55",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 459,
+    "station_id": "2-39-78-364",
+    "status": "active",
+    "reported_at": "2020-11-03 06:34:27",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 460,
+    "station_id": "2-39-78-364",
+    "status": "active",
+    "reported_at": "2020-11-28 15:40:47",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 461,
+    "station_id": "2-39-78-365",
+    "status": "active",
+    "reported_at": "2020-02-11 08:41:36",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 462,
+    "station_id": "2-39-78-365",
+    "status": "maintenance",
+    "reported_at": "2020-02-17 16:25:07",
+    "note": "preventive maintenance visit"
+  },
+  {
+    "status_id": 463,
+    "station_id": "2-39-78-365",
+    "status": "active",
+    "reported_at": "2020-05-03 14:04:24",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 464,
+    "station_id": "2-39-78-365",
+    "status": "active",
+    "reported_at": "2020-05-10 15:50:40",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 465,
+    "station_id": "2-39-78-365",
+    "status": "maintenance",
+    "reported_at": "2020-05-24 17:09:09",
+    "note": "preventive maintenance visit"
+  },
+  {
+    "status_id": 466,
+    "station_id": "2-39-78-365",
+    "status": "maintenance",
+    "reported_at": "2020-05-26 03:42:39",
+    "note": "technician inspection requested"
+  },
+  {
+    "status_id": 467,
+    "station_id": "2-39-78-365",
+    "status": "maintenance",
+    "reported_at": "2020-06-06 16:14:35",
+    "note": "scheduled maintenance"
+  },
+  {
+    "status_id": 468,
+    "station_id": "2-39-78-365",
+    "status": "active",
+    "reported_at": "2020-06-13 18:48:48",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 469,
+    "station_id": "2-39-78-365",
+    "status": "active",
+    "reported_at": "2020-06-28 07:59:18",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 470,
+    "station_id": "2-39-78-365",
+    "status": "maintenance",
+    "reported_at": "2020-08-24 09:45:26",
+    "note": "technician inspection requested"
+  },
+  {
+    "status_id": 471,
+    "station_id": "2-39-78-365",
+    "status": "active",
+    "reported_at": "2020-08-25 18:45:40",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 472,
+    "station_id": "2-39-78-365",
+    "status": "maintenance",
+    "reported_at": "2020-09-04 17:07:01",
+    "note": "scheduled maintenance"
+  },
+  {
+    "status_id": 473,
+    "station_id": "2-39-78-365",
+    "status": "maintenance",
+    "reported_at": "2020-09-08 06:02:46",
+    "note": "preventive maintenance visit"
+  },
+  {
+    "status_id": 474,
+    "station_id": "2-39-78-365",
+    "status": "active",
+    "reported_at": "2020-09-13 17:02:15",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 475,
+    "station_id": "2-39-78-365",
+    "status": "offline",
+    "reported_at": "2020-09-19 09:19:10",
+    "note": "charger unavailable to drivers"
+  },
+  {
+    "status_id": 476,
+    "station_id": "2-39-78-365",
+    "status": "active",
+    "reported_at": "2020-09-27 18:07:38",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 477,
+    "station_id": "2-39-78-365",
+    "status": "active",
+    "reported_at": "2020-10-09 17:29:52",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 478,
+    "station_id": "2-39-78-365",
+    "status": "active",
+    "reported_at": "2020-11-15 21:25:35",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 479,
+    "station_id": "2-39-78-365",
+    "status": "offline",
+    "reported_at": "2020-12-03 15:09:46",
+    "note": "power interruption reported"
+  },
+  {
+    "status_id": 480,
+    "station_id": "2-39-78-365",
+    "status": "active",
+    "reported_at": "2020-12-23 17:18:18",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 481,
+    "station_id": "2-39-78-366",
+    "status": "active",
+    "reported_at": "2020-01-22 02:40:38",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 482,
+    "station_id": "2-39-78-366",
+    "status": "offline",
+    "reported_at": "2020-01-26 22:44:43",
+    "note": "station failed remote health check"
+  },
+  {
+    "status_id": 483,
+    "station_id": "2-39-78-366",
+    "status": "active",
+    "reported_at": "2020-02-10 17:42:27",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 484,
+    "station_id": "2-39-78-366",
+    "status": "offline",
+    "reported_at": "2020-02-11 23:30:19",
+    "note": "power interruption reported"
+  },
+  {
+    "status_id": 485,
+    "station_id": "2-39-78-366",
+    "status": "maintenance",
+    "reported_at": "2020-02-15 06:17:52",
+    "note": "technician inspection requested"
+  },
+  {
+    "status_id": 486,
+    "station_id": "2-39-78-366",
+    "status": "active",
+    "reported_at": "2020-02-19 07:09:29",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 487,
+    "station_id": "2-39-78-366",
+    "status": "active",
+    "reported_at": "2020-03-30 01:59:38",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 488,
+    "station_id": "2-39-78-366",
+    "status": "active",
+    "reported_at": "2020-04-22 06:29:10",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 489,
+    "station_id": "2-39-78-366",
+    "status": "active",
+    "reported_at": "2020-06-11 11:28:43",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 490,
+    "station_id": "2-39-78-366",
+    "status": "active",
+    "reported_at": "2020-07-19 11:00:50",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 491,
+    "station_id": "2-39-78-366",
+    "status": "active",
+    "reported_at": "2020-07-27 09:05:38",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 492,
+    "station_id": "2-39-78-366",
+    "status": "maintenance",
+    "reported_at": "2020-08-25 21:09:52",
+    "note": "scheduled maintenance"
+  },
+  {
+    "status_id": 493,
+    "station_id": "2-39-78-366",
+    "status": "active",
+    "reported_at": "2020-08-27 18:40:24",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 494,
+    "station_id": "2-39-78-366",
+    "status": "active",
+    "reported_at": "2020-09-02 18:20:41",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 495,
+    "station_id": "2-39-78-366",
+    "status": "active",
+    "reported_at": "2020-09-19 11:18:46",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 496,
+    "station_id": "2-39-78-366",
+    "status": "maintenance",
+    "reported_at": "2020-09-26 19:31:30",
+    "note": "technician inspection requested"
+  },
+  {
+    "status_id": 497,
+    "station_id": "2-39-78-366",
+    "status": "maintenance",
+    "reported_at": "2020-11-03 21:17:26",
+    "note": "scheduled maintenance"
+  },
+  {
+    "status_id": 498,
+    "station_id": "2-39-78-366",
+    "status": "maintenance",
+    "reported_at": "2020-11-04 10:50:45",
+    "note": "preventive maintenance visit"
+  },
+  {
+    "status_id": 499,
+    "station_id": "2-39-78-366",
+    "status": "active",
+    "reported_at": "2020-12-05 11:54:18",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 500,
+    "station_id": "2-39-78-366",
+    "status": "active",
+    "reported_at": "2020-12-18 13:36:56",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 501,
+    "station_id": "2-39-78-367",
+    "status": "active",
+    "reported_at": "2020-01-04 21:32:46",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 502,
+    "station_id": "2-39-78-367",
+    "status": "active",
+    "reported_at": "2020-01-13 01:18:04",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 503,
+    "station_id": "2-39-78-367",
+    "status": "active",
+    "reported_at": "2020-01-30 00:10:48",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 504,
+    "station_id": "2-39-78-367",
+    "status": "active",
+    "reported_at": "2020-01-30 22:14:48",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 505,
+    "station_id": "2-39-78-367",
+    "status": "active",
+    "reported_at": "2020-02-10 00:33:17",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 506,
+    "station_id": "2-39-78-367",
+    "status": "active",
+    "reported_at": "2020-03-02 20:07:03",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 507,
+    "station_id": "2-39-78-367",
+    "status": "active",
+    "reported_at": "2020-03-16 01:53:57",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 508,
+    "station_id": "2-39-78-367",
+    "status": "active",
+    "reported_at": "2020-03-20 19:55:32",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 509,
+    "station_id": "2-39-78-367",
+    "status": "maintenance",
+    "reported_at": "2020-04-24 14:35:26",
+    "note": "charging connector inspection required"
+  },
+  {
+    "status_id": 510,
+    "station_id": "2-39-78-367",
+    "status": "active",
+    "reported_at": "2020-05-04 19:23:42",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 511,
+    "station_id": "2-39-78-367",
+    "status": "active",
+    "reported_at": "2020-05-19 13:56:16",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 512,
+    "station_id": "2-39-78-367",
+    "status": "active",
+    "reported_at": "2020-05-22 13:07:06",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 513,
+    "station_id": "2-39-78-367",
+    "status": "active",
+    "reported_at": "2020-05-29 23:00:31",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 514,
+    "station_id": "2-39-78-367",
+    "status": "active",
+    "reported_at": "2020-05-31 19:34:35",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 515,
+    "station_id": "2-39-78-367",
+    "status": "offline",
+    "reported_at": "2020-06-30 02:20:59",
+    "note": "station failed remote health check"
+  },
+  {
+    "status_id": 516,
+    "station_id": "2-39-78-367",
+    "status": "active",
+    "reported_at": "2020-09-24 20:42:14",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 517,
+    "station_id": "2-39-78-367",
+    "status": "active",
+    "reported_at": "2020-10-23 07:20:36",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 518,
+    "station_id": "2-39-78-367",
+    "status": "maintenance",
+    "reported_at": "2020-11-07 04:58:03",
+    "note": "charging cable needs inspection"
+  },
+  {
+    "status_id": 519,
+    "station_id": "2-39-78-367",
+    "status": "active",
+    "reported_at": "2020-11-29 00:06:36",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 520,
+    "station_id": "2-39-78-367",
+    "status": "active",
+    "reported_at": "2020-12-10 07:13:13",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 521,
+    "station_id": "2-39-79-376",
+    "status": "active",
+    "reported_at": "2020-01-14 05:12:39",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 522,
+    "station_id": "2-39-79-376",
+    "status": "active",
+    "reported_at": "2020-02-10 03:17:56",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 523,
+    "station_id": "2-39-79-376",
+    "status": "active",
+    "reported_at": "2020-02-17 23:31:55",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 524,
+    "station_id": "2-39-79-376",
+    "status": "offline",
+    "reported_at": "2020-02-28 23:19:51",
+    "note": "station is not responding"
+  },
+  {
+    "status_id": 525,
+    "station_id": "2-39-79-376",
+    "status": "offline",
+    "reported_at": "2020-03-21 17:05:45",
+    "note": "charger unavailable to drivers"
+  },
+  {
+    "status_id": 526,
+    "station_id": "2-39-79-376",
+    "status": "active",
+    "reported_at": "2020-04-10 08:44:19",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 527,
+    "station_id": "2-39-79-376",
+    "status": "maintenance",
+    "reported_at": "2020-04-14 04:13:47",
+    "note": "charging connector inspection required"
+  },
+  {
+    "status_id": 528,
+    "station_id": "2-39-79-376",
+    "status": "offline",
+    "reported_at": "2020-04-17 04:59:41",
+    "note": "station is not responding"
+  },
+  {
+    "status_id": 529,
+    "station_id": "2-39-79-376",
+    "status": "active",
+    "reported_at": "2020-04-28 14:32:57",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 530,
+    "station_id": "2-39-79-376",
+    "status": "active",
+    "reported_at": "2020-04-29 04:49:27",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 531,
+    "station_id": "2-39-79-376",
+    "status": "active",
+    "reported_at": "2020-06-01 11:17:17",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 532,
+    "station_id": "2-39-79-376",
+    "status": "offline",
+    "reported_at": "2020-06-25 10:13:31",
+    "note": "station failed remote health check"
+  },
+  {
+    "status_id": 533,
+    "station_id": "2-39-79-376",
+    "status": "active",
+    "reported_at": "2020-07-02 23:37:57",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 534,
+    "station_id": "2-39-79-376",
+    "status": "active",
+    "reported_at": "2020-09-03 15:57:11",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 535,
+    "station_id": "2-39-79-376",
+    "status": "active",
+    "reported_at": "2020-10-04 04:16:05",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 536,
+    "station_id": "2-39-79-376",
+    "status": "active",
+    "reported_at": "2020-10-06 03:38:42",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 537,
+    "station_id": "2-39-79-376",
+    "status": "active",
+    "reported_at": "2020-11-02 18:25:09",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 538,
+    "station_id": "2-39-79-376",
+    "status": "active",
+    "reported_at": "2020-12-11 09:56:19",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 539,
+    "station_id": "2-39-79-376",
+    "status": "maintenance",
+    "reported_at": "2020-12-22 04:29:22",
+    "note": "charging connector inspection required"
+  },
+  {
+    "status_id": 540,
+    "station_id": "2-39-79-376",
+    "status": "active",
+    "reported_at": "2020-12-24 00:10:03",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 541,
+    "station_id": "2-39-79-377",
+    "status": "active",
+    "reported_at": "2020-01-09 01:47:59",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 542,
+    "station_id": "2-39-79-377",
+    "status": "active",
+    "reported_at": "2020-02-01 09:58:44",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 543,
+    "station_id": "2-39-79-377",
+    "status": "active",
+    "reported_at": "2020-05-13 18:04:24",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 544,
+    "station_id": "2-39-79-377",
+    "status": "active",
+    "reported_at": "2020-06-05 07:51:04",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 545,
+    "station_id": "2-39-79-377",
+    "status": "offline",
+    "reported_at": "2020-06-17 07:26:23",
+    "note": "charger unavailable to drivers"
+  },
+  {
+    "status_id": 546,
+    "station_id": "2-39-79-377",
+    "status": "active",
+    "reported_at": "2020-06-29 20:49:18",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 547,
+    "station_id": "2-39-79-377",
+    "status": "active",
+    "reported_at": "2020-07-22 19:23:44",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 548,
+    "station_id": "2-39-79-377",
+    "status": "active",
+    "reported_at": "2020-07-27 15:59:54",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 549,
+    "station_id": "2-39-79-377",
+    "status": "active",
+    "reported_at": "2020-08-03 11:27:44",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 550,
+    "station_id": "2-39-79-377",
+    "status": "active",
+    "reported_at": "2020-09-03 05:09:34",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 551,
+    "station_id": "2-39-79-377",
+    "status": "active",
+    "reported_at": "2020-09-04 04:21:51",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 552,
+    "station_id": "2-39-79-377",
+    "status": "active",
+    "reported_at": "2020-09-08 12:45:57",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 553,
+    "station_id": "2-39-79-377",
+    "status": "maintenance",
+    "reported_at": "2020-09-21 22:25:56",
+    "note": "charging cable needs inspection"
+  },
+  {
+    "status_id": 554,
+    "station_id": "2-39-79-377",
+    "status": "active",
+    "reported_at": "2020-10-21 08:43:07",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 555,
+    "station_id": "2-39-79-377",
+    "status": "maintenance",
+    "reported_at": "2020-10-23 08:51:47",
+    "note": "technician inspection requested"
+  },
+  {
+    "status_id": 556,
+    "station_id": "2-39-79-377",
+    "status": "active",
+    "reported_at": "2020-11-01 17:13:38",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 557,
+    "station_id": "2-39-79-377",
+    "status": "active",
+    "reported_at": "2020-11-05 18:14:11",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 558,
+    "station_id": "2-39-79-377",
+    "status": "active",
+    "reported_at": "2020-11-30 00:32:52",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 559,
+    "station_id": "2-39-79-377",
+    "status": "maintenance",
+    "reported_at": "2020-12-10 10:49:58",
+    "note": "charging connector inspection required"
+  },
+  {
+    "status_id": 560,
+    "station_id": "2-39-79-377",
+    "status": "active",
+    "reported_at": "2020-12-28 11:26:50",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 561,
+    "station_id": "2-39-79-378",
+    "status": "active",
+    "reported_at": "2020-02-04 12:18:50",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 562,
+    "station_id": "2-39-79-378",
+    "status": "active",
+    "reported_at": "2020-03-16 13:12:30",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 563,
+    "station_id": "2-39-79-378",
+    "status": "active",
+    "reported_at": "2020-04-02 17:33:50",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 564,
+    "station_id": "2-39-79-378",
+    "status": "offline",
+    "reported_at": "2020-04-11 16:04:43",
+    "note": "power interruption reported"
+  },
+  {
+    "status_id": 565,
+    "station_id": "2-39-79-378",
+    "status": "active",
+    "reported_at": "2020-05-03 05:42:42",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 566,
+    "station_id": "2-39-79-378",
+    "status": "active",
+    "reported_at": "2020-05-08 10:17:17",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 567,
+    "station_id": "2-39-79-378",
+    "status": "maintenance",
+    "reported_at": "2020-07-09 04:17:12",
+    "note": "technician inspection requested"
+  },
+  {
+    "status_id": 568,
+    "station_id": "2-39-79-378",
+    "status": "active",
+    "reported_at": "2020-08-01 13:34:49",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 569,
+    "station_id": "2-39-79-378",
+    "status": "active",
+    "reported_at": "2020-08-10 11:22:09",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 570,
+    "station_id": "2-39-79-378",
+    "status": "active",
+    "reported_at": "2020-09-30 16:39:22",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 571,
+    "station_id": "2-39-79-378",
+    "status": "active",
+    "reported_at": "2020-10-04 08:44:29",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 572,
+    "station_id": "2-39-79-378",
+    "status": "active",
+    "reported_at": "2020-10-11 02:27:38",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 573,
+    "station_id": "2-39-79-378",
+    "status": "active",
+    "reported_at": "2020-10-14 12:44:34",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 574,
+    "station_id": "2-39-79-378",
+    "status": "active",
+    "reported_at": "2020-10-25 03:55:03",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 575,
+    "station_id": "2-39-79-378",
+    "status": "active",
+    "reported_at": "2020-10-26 21:59:41",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 576,
+    "station_id": "2-39-79-378",
+    "status": "active",
+    "reported_at": "2020-10-31 17:28:51",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 577,
+    "station_id": "2-39-79-378",
+    "status": "active",
+    "reported_at": "2020-11-09 12:41:16",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 578,
+    "station_id": "2-39-79-378",
+    "status": "maintenance",
+    "reported_at": "2020-11-27 07:22:54",
+    "note": "technician inspection requested"
+  },
+  {
+    "status_id": 579,
+    "station_id": "2-39-79-378",
+    "status": "offline",
+    "reported_at": "2020-11-28 08:31:47",
+    "note": "charger unavailable to drivers"
+  },
+  {
+    "status_id": 580,
+    "station_id": "2-39-79-378",
+    "status": "active",
+    "reported_at": "2020-12-10 13:33:38",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 581,
+    "station_id": "2-39-79-379",
+    "status": "active",
+    "reported_at": "2020-01-06 06:03:41",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 582,
+    "station_id": "2-39-79-379",
+    "status": "maintenance",
+    "reported_at": "2020-01-29 21:08:50",
+    "note": "preventive maintenance visit"
+  },
+  {
+    "status_id": 583,
+    "station_id": "2-39-79-379",
+    "status": "active",
+    "reported_at": "2020-02-20 01:02:05",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 584,
+    "station_id": "2-39-79-379",
+    "status": "offline",
+    "reported_at": "2020-03-07 02:30:49",
+    "note": "power interruption reported"
+  },
+  {
+    "status_id": 585,
+    "station_id": "2-39-79-379",
+    "status": "active",
+    "reported_at": "2020-04-16 07:54:52",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 586,
+    "station_id": "2-39-79-379",
+    "status": "active",
+    "reported_at": "2020-04-18 03:15:57",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 587,
+    "station_id": "2-39-79-379",
+    "status": "active",
+    "reported_at": "2020-04-20 00:35:30",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 588,
+    "station_id": "2-39-79-379",
+    "status": "maintenance",
+    "reported_at": "2020-06-27 13:41:21",
+    "note": "scheduled maintenance"
+  },
+  {
+    "status_id": 589,
+    "station_id": "2-39-79-379",
+    "status": "active",
+    "reported_at": "2020-07-05 19:51:49",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 590,
+    "station_id": "2-39-79-379",
+    "status": "active",
+    "reported_at": "2020-07-20 02:07:03",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 591,
+    "station_id": "2-39-79-379",
+    "status": "active",
+    "reported_at": "2020-08-01 09:54:54",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 592,
+    "station_id": "2-39-79-379",
+    "status": "active",
+    "reported_at": "2020-08-07 17:07:16",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 593,
+    "station_id": "2-39-79-379",
+    "status": "active",
+    "reported_at": "2020-09-20 21:43:38",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 594,
+    "station_id": "2-39-79-379",
+    "status": "active",
+    "reported_at": "2020-10-05 19:40:07",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 595,
+    "station_id": "2-39-79-379",
+    "status": "active",
+    "reported_at": "2020-10-15 00:56:54",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 596,
+    "station_id": "2-39-79-379",
+    "status": "offline",
+    "reported_at": "2020-10-18 12:21:37",
+    "note": "station is not responding"
+  },
+  {
+    "status_id": 597,
+    "station_id": "2-39-79-379",
+    "status": "active",
+    "reported_at": "2020-10-24 18:56:17",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 598,
+    "station_id": "2-39-79-379",
+    "status": "active",
+    "reported_at": "2020-10-28 10:53:25",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 599,
+    "station_id": "2-39-79-379",
+    "status": "active",
+    "reported_at": "2020-12-19 13:21:03",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 600,
+    "station_id": "2-39-79-379",
+    "status": "active",
+    "reported_at": "2020-12-27 05:28:57",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 601,
+    "station_id": "2-39-79-380",
+    "status": "active",
+    "reported_at": "2020-01-02 22:45:58",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 602,
+    "station_id": "2-39-79-380",
+    "status": "active",
+    "reported_at": "2020-01-12 01:06:05",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 603,
+    "station_id": "2-39-79-380",
+    "status": "active",
+    "reported_at": "2020-01-31 03:25:34",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 604,
+    "station_id": "2-39-79-380",
+    "status": "active",
+    "reported_at": "2020-02-01 03:22:44",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 605,
+    "station_id": "2-39-79-380",
+    "status": "active",
+    "reported_at": "2020-02-02 11:25:05",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 606,
+    "station_id": "2-39-79-380",
+    "status": "active",
+    "reported_at": "2020-02-07 10:18:17",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 607,
+    "station_id": "2-39-79-380",
+    "status": "active",
+    "reported_at": "2020-02-10 19:49:21",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 608,
+    "station_id": "2-39-79-380",
+    "status": "offline",
+    "reported_at": "2020-03-13 03:27:06",
+    "note": "station failed remote health check"
+  },
+  {
+    "status_id": 609,
+    "station_id": "2-39-79-380",
+    "status": "active",
+    "reported_at": "2020-04-02 13:04:05",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 610,
+    "station_id": "2-39-79-380",
+    "status": "maintenance",
+    "reported_at": "2020-04-28 16:40:09",
+    "note": "charging connector inspection required"
+  },
+  {
+    "status_id": 611,
+    "station_id": "2-39-79-380",
+    "status": "maintenance",
+    "reported_at": "2020-05-18 01:15:50",
+    "note": "charging connector inspection required"
+  },
+  {
+    "status_id": 612,
+    "station_id": "2-39-79-380",
+    "status": "maintenance",
+    "reported_at": "2020-06-04 06:21:58",
+    "note": "scheduled maintenance"
+  },
+  {
+    "status_id": 613,
+    "station_id": "2-39-79-380",
+    "status": "maintenance",
+    "reported_at": "2020-06-04 14:52:03",
+    "note": "charging connector inspection required"
+  },
+  {
+    "status_id": 614,
+    "station_id": "2-39-79-380",
+    "status": "active",
+    "reported_at": "2020-06-12 07:25:38",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 615,
+    "station_id": "2-39-79-380",
+    "status": "active",
+    "reported_at": "2020-09-26 16:26:45",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 616,
+    "station_id": "2-39-79-380",
+    "status": "maintenance",
+    "reported_at": "2020-10-02 23:23:06",
+    "note": "charging cable needs inspection"
+  },
+  {
+    "status_id": 617,
+    "station_id": "2-39-79-380",
+    "status": "maintenance",
+    "reported_at": "2020-10-25 14:19:19",
+    "note": "preventive maintenance visit"
+  },
+  {
+    "status_id": 618,
+    "station_id": "2-39-79-380",
+    "status": "active",
+    "reported_at": "2020-11-27 11:40:27",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 619,
+    "station_id": "2-39-79-380",
+    "status": "maintenance",
+    "reported_at": "2020-12-14 03:05:41",
+    "note": "charging cable needs inspection"
+  },
+  {
+    "status_id": 620,
+    "station_id": "2-39-79-380",
+    "status": "active",
+    "reported_at": "2020-12-14 19:01:05",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 621,
+    "station_id": "2-39-79-381",
+    "status": "active",
+    "reported_at": "2020-01-24 20:24:33",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 622,
+    "station_id": "2-39-79-381",
+    "status": "active",
+    "reported_at": "2020-01-27 05:32:11",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 623,
+    "station_id": "2-39-79-381",
+    "status": "active",
+    "reported_at": "2020-02-20 01:28:52",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 624,
+    "station_id": "2-39-79-381",
+    "status": "active",
+    "reported_at": "2020-03-06 20:20:50",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 625,
+    "station_id": "2-39-79-381",
+    "status": "maintenance",
+    "reported_at": "2020-03-14 21:29:44",
+    "note": "charging cable needs inspection"
+  },
+  {
+    "status_id": 626,
+    "station_id": "2-39-79-381",
+    "status": "active",
+    "reported_at": "2020-03-17 08:51:20",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 627,
+    "station_id": "2-39-79-381",
+    "status": "offline",
+    "reported_at": "2020-03-20 03:22:38",
+    "note": "station is not responding"
+  },
+  {
+    "status_id": 628,
+    "station_id": "2-39-79-381",
+    "status": "active",
+    "reported_at": "2020-07-08 00:09:20",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 629,
+    "station_id": "2-39-79-381",
+    "status": "maintenance",
+    "reported_at": "2020-07-09 19:04:40",
+    "note": "technician inspection requested"
+  },
+  {
+    "status_id": 630,
+    "station_id": "2-39-79-381",
+    "status": "active",
+    "reported_at": "2020-07-16 10:04:05",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 631,
+    "station_id": "2-39-79-381",
+    "status": "active",
+    "reported_at": "2020-08-18 22:29:51",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 632,
+    "station_id": "2-39-79-381",
+    "status": "offline",
+    "reported_at": "2020-08-28 09:29:34",
+    "note": "network connection lost"
+  },
+  {
+    "status_id": 633,
+    "station_id": "2-39-79-381",
+    "status": "maintenance",
+    "reported_at": "2020-09-22 17:53:39",
+    "note": "scheduled maintenance"
+  },
+  {
+    "status_id": 634,
+    "station_id": "2-39-79-381",
+    "status": "active",
+    "reported_at": "2020-10-02 23:50:12",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 635,
+    "station_id": "2-39-79-381",
+    "status": "maintenance",
+    "reported_at": "2020-10-12 08:15:11",
+    "note": "charging cable needs inspection"
+  },
+  {
+    "status_id": 636,
+    "station_id": "2-39-79-381",
+    "status": "active",
+    "reported_at": "2020-11-22 02:56:39",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 637,
+    "station_id": "2-39-79-381",
+    "status": "active",
+    "reported_at": "2020-11-25 09:48:25",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 638,
+    "station_id": "2-39-79-381",
+    "status": "active",
+    "reported_at": "2020-11-30 07:54:51",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 639,
+    "station_id": "2-39-79-381",
+    "status": "active",
+    "reported_at": "2020-12-06 17:39:32",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 640,
+    "station_id": "2-39-79-381",
+    "status": "active",
+    "reported_at": "2020-12-14 05:54:05",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 641,
+    "station_id": "2-39-79-382",
+    "status": "active",
+    "reported_at": "2020-01-06 18:15:33",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 642,
+    "station_id": "2-39-79-382",
+    "status": "active",
+    "reported_at": "2020-01-10 15:40:12",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 643,
+    "station_id": "2-39-79-382",
+    "status": "active",
+    "reported_at": "2020-02-28 19:38:57",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 644,
+    "station_id": "2-39-79-382",
+    "status": "active",
+    "reported_at": "2020-03-07 00:01:31",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 645,
+    "station_id": "2-39-79-382",
+    "status": "active",
+    "reported_at": "2020-03-08 12:12:05",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 646,
+    "station_id": "2-39-79-382",
+    "status": "active",
+    "reported_at": "2020-03-28 01:33:30",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 647,
+    "station_id": "2-39-79-382",
+    "status": "active",
+    "reported_at": "2020-04-13 03:22:03",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 648,
+    "station_id": "2-39-79-382",
+    "status": "active",
+    "reported_at": "2020-05-26 01:07:52",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 649,
+    "station_id": "2-39-79-382",
+    "status": "maintenance",
+    "reported_at": "2020-06-02 14:57:06",
+    "note": "charging cable needs inspection"
+  },
+  {
+    "status_id": 650,
+    "station_id": "2-39-79-382",
+    "status": "active",
+    "reported_at": "2020-06-06 22:45:48",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 651,
+    "station_id": "2-39-79-382",
+    "status": "active",
+    "reported_at": "2020-07-19 18:04:34",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 652,
+    "station_id": "2-39-79-382",
+    "status": "maintenance",
+    "reported_at": "2020-08-10 08:37:27",
+    "note": "scheduled maintenance"
+  },
+  {
+    "status_id": 653,
+    "station_id": "2-39-79-382",
+    "status": "active",
+    "reported_at": "2020-08-25 13:51:51",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 654,
+    "station_id": "2-39-79-382",
+    "status": "active",
+    "reported_at": "2020-09-12 23:55:54",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 655,
+    "station_id": "2-39-79-382",
+    "status": "active",
+    "reported_at": "2020-10-18 00:22:11",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 656,
+    "station_id": "2-39-79-382",
+    "status": "active",
+    "reported_at": "2020-11-03 20:08:00",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 657,
+    "station_id": "2-39-79-382",
+    "status": "active",
+    "reported_at": "2020-11-09 17:36:12",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 658,
+    "station_id": "2-39-79-382",
+    "status": "active",
+    "reported_at": "2020-11-11 06:36:49",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 659,
+    "station_id": "2-39-79-382",
+    "status": "active",
+    "reported_at": "2020-11-12 06:25:32",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 660,
+    "station_id": "2-39-79-382",
+    "status": "active",
+    "reported_at": "2020-11-29 11:14:38",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 661,
+    "station_id": "2-39-79-383",
+    "status": "active",
+    "reported_at": "2020-01-13 18:09:25",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 662,
+    "station_id": "2-39-79-383",
+    "status": "active",
+    "reported_at": "2020-02-24 10:53:08",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 663,
+    "station_id": "2-39-79-383",
+    "status": "active",
+    "reported_at": "2020-03-16 13:43:50",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 664,
+    "station_id": "2-39-79-383",
+    "status": "active",
+    "reported_at": "2020-05-21 13:09:30",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 665,
+    "station_id": "2-39-79-383",
+    "status": "active",
+    "reported_at": "2020-05-29 04:04:28",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 666,
+    "station_id": "2-39-79-383",
+    "status": "active",
+    "reported_at": "2020-06-02 18:12:48",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 667,
+    "station_id": "2-39-79-383",
+    "status": "active",
+    "reported_at": "2020-06-18 17:55:47",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 668,
+    "station_id": "2-39-79-383",
+    "status": "active",
+    "reported_at": "2020-06-30 15:59:41",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 669,
+    "station_id": "2-39-79-383",
+    "status": "active",
+    "reported_at": "2020-07-01 18:24:19",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 670,
+    "station_id": "2-39-79-383",
+    "status": "active",
+    "reported_at": "2020-07-23 06:24:41",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 671,
+    "station_id": "2-39-79-383",
+    "status": "active",
+    "reported_at": "2020-08-17 17:13:40",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 672,
+    "station_id": "2-39-79-383",
+    "status": "active",
+    "reported_at": "2020-09-07 14:23:14",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 673,
+    "station_id": "2-39-79-383",
+    "status": "active",
+    "reported_at": "2020-09-26 21:54:25",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 674,
+    "station_id": "2-39-79-383",
+    "status": "maintenance",
+    "reported_at": "2020-10-10 06:31:18",
+    "note": "scheduled maintenance"
+  },
+  {
+    "status_id": 675,
+    "station_id": "2-39-79-383",
+    "status": "active",
+    "reported_at": "2020-10-16 03:04:25",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 676,
+    "station_id": "2-39-79-383",
+    "status": "active",
+    "reported_at": "2020-11-08 06:35:42",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 677,
+    "station_id": "2-39-79-383",
+    "status": "active",
+    "reported_at": "2020-11-16 02:51:27",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 678,
+    "station_id": "2-39-79-383",
+    "status": "offline",
+    "reported_at": "2020-12-11 03:13:06",
+    "note": "station failed remote health check"
+  },
+  {
+    "status_id": 679,
+    "station_id": "2-39-79-383",
+    "status": "active",
+    "reported_at": "2020-12-21 11:36:06",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 680,
+    "station_id": "2-39-79-383",
+    "status": "active",
+    "reported_at": "2020-12-31 10:52:59",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 681,
+    "station_id": "2-39-81-4550",
+    "status": "active",
+    "reported_at": "2020-01-07 04:30:31",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 682,
+    "station_id": "2-39-81-4550",
+    "status": "active",
+    "reported_at": "2020-01-14 17:31:00",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 683,
+    "station_id": "2-39-81-4550",
+    "status": "active",
+    "reported_at": "2020-01-29 05:40:43",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 684,
+    "station_id": "2-39-81-4550",
+    "status": "offline",
+    "reported_at": "2020-02-10 21:56:21",
+    "note": "station is not responding"
+  },
+  {
+    "status_id": 685,
+    "station_id": "2-39-81-4550",
+    "status": "active",
+    "reported_at": "2020-03-28 22:28:59",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 686,
+    "station_id": "2-39-81-4550",
+    "status": "active",
+    "reported_at": "2020-04-01 10:35:43",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 687,
+    "station_id": "2-39-81-4550",
+    "status": "active",
+    "reported_at": "2020-05-06 03:10:10",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 688,
+    "station_id": "2-39-81-4550",
+    "status": "active",
+    "reported_at": "2020-05-11 13:36:55",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 689,
+    "station_id": "2-39-81-4550",
+    "status": "active",
+    "reported_at": "2020-05-22 02:31:57",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 690,
+    "station_id": "2-39-81-4550",
+    "status": "offline",
+    "reported_at": "2020-05-22 14:11:50",
+    "note": "power interruption reported"
+  },
+  {
+    "status_id": 691,
+    "station_id": "2-39-81-4550",
+    "status": "active",
+    "reported_at": "2020-06-06 20:03:13",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 692,
+    "station_id": "2-39-81-4550",
+    "status": "maintenance",
+    "reported_at": "2020-06-11 05:37:00",
+    "note": "charging connector inspection required"
+  },
+  {
+    "status_id": 693,
+    "station_id": "2-39-81-4550",
+    "status": "active",
+    "reported_at": "2020-07-30 19:10:53",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 694,
+    "station_id": "2-39-81-4550",
+    "status": "active",
+    "reported_at": "2020-08-03 02:38:20",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 695,
+    "station_id": "2-39-81-4550",
+    "status": "active",
+    "reported_at": "2020-08-03 23:58:32",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 696,
+    "station_id": "2-39-81-4550",
+    "status": "offline",
+    "reported_at": "2020-08-18 21:16:58",
+    "note": "station failed remote health check"
+  },
+  {
+    "status_id": 697,
+    "station_id": "2-39-81-4550",
+    "status": "maintenance",
+    "reported_at": "2020-09-01 14:56:38",
+    "note": "scheduled maintenance"
+  },
+  {
+    "status_id": 698,
+    "station_id": "2-39-81-4550",
+    "status": "maintenance",
+    "reported_at": "2020-09-11 12:44:03",
+    "note": "technician inspection requested"
+  },
+  {
+    "status_id": 699,
+    "station_id": "2-39-81-4550",
+    "status": "maintenance",
+    "reported_at": "2020-10-26 22:20:00",
+    "note": "scheduled maintenance"
+  },
+  {
+    "status_id": 700,
+    "station_id": "2-39-81-4550",
+    "status": "offline",
+    "reported_at": "2020-12-01 23:44:42",
+    "note": "network connection lost"
+  },
+  {
+    "status_id": 701,
+    "station_id": "2-39-82-384",
+    "status": "active",
+    "reported_at": "2020-03-08 22:53:48",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 702,
+    "station_id": "2-39-82-384",
+    "status": "active",
+    "reported_at": "2020-03-12 18:14:38",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 703,
+    "station_id": "2-39-82-384",
+    "status": "active",
+    "reported_at": "2020-03-20 12:27:57",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 704,
+    "station_id": "2-39-82-384",
+    "status": "active",
+    "reported_at": "2020-03-24 22:10:50",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 705,
+    "station_id": "2-39-82-384",
+    "status": "active",
+    "reported_at": "2020-05-26 14:42:07",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 706,
+    "station_id": "2-39-82-384",
+    "status": "active",
+    "reported_at": "2020-06-29 05:09:28",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 707,
+    "station_id": "2-39-82-384",
+    "status": "active",
+    "reported_at": "2020-07-08 21:03:35",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 708,
+    "station_id": "2-39-82-384",
+    "status": "active",
+    "reported_at": "2020-07-21 18:36:32",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 709,
+    "station_id": "2-39-82-384",
+    "status": "active",
+    "reported_at": "2020-07-25 17:37:58",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 710,
+    "station_id": "2-39-82-384",
+    "status": "active",
+    "reported_at": "2020-09-15 03:32:45",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 711,
+    "station_id": "2-39-82-384",
+    "status": "active",
+    "reported_at": "2020-09-25 18:18:36",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 712,
+    "station_id": "2-39-82-384",
+    "status": "active",
+    "reported_at": "2020-09-29 13:46:44",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 713,
+    "station_id": "2-39-82-384",
+    "status": "active",
+    "reported_at": "2020-11-02 17:50:06",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 714,
+    "station_id": "2-39-82-384",
+    "status": "active",
+    "reported_at": "2020-11-04 00:08:25",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 715,
+    "station_id": "2-39-82-384",
+    "status": "active",
+    "reported_at": "2020-11-07 16:06:04",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 716,
+    "station_id": "2-39-82-384",
+    "status": "active",
+    "reported_at": "2020-11-10 12:47:46",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 717,
+    "station_id": "2-39-82-384",
+    "status": "active",
+    "reported_at": "2020-12-10 01:13:44",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 718,
+    "station_id": "2-39-82-384",
+    "status": "active",
+    "reported_at": "2020-12-15 08:08:33",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 719,
+    "station_id": "2-39-82-384",
+    "status": "active",
+    "reported_at": "2020-12-30 15:24:57",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 720,
+    "station_id": "2-39-82-384",
+    "status": "active",
+    "reported_at": "2020-12-31 16:09:42",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 721,
+    "station_id": "2-39-83-386",
+    "status": "active",
+    "reported_at": "2020-01-19 16:08:48",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 722,
+    "station_id": "2-39-83-386",
+    "status": "active",
+    "reported_at": "2020-03-05 17:39:12",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 723,
+    "station_id": "2-39-83-386",
+    "status": "active",
+    "reported_at": "2020-03-19 23:09:53",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 724,
+    "station_id": "2-39-83-386",
+    "status": "active",
+    "reported_at": "2020-03-26 10:52:47",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 725,
+    "station_id": "2-39-83-386",
+    "status": "active",
+    "reported_at": "2020-03-29 15:41:35",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 726,
+    "station_id": "2-39-83-386",
+    "status": "active",
+    "reported_at": "2020-04-12 21:31:33",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 727,
+    "station_id": "2-39-83-386",
+    "status": "maintenance",
+    "reported_at": "2020-05-11 04:12:10",
+    "note": "preventive maintenance visit"
+  },
+  {
+    "status_id": 728,
+    "station_id": "2-39-83-386",
+    "status": "active",
+    "reported_at": "2020-05-30 22:56:15",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 729,
+    "station_id": "2-39-83-386",
+    "status": "active",
+    "reported_at": "2020-06-14 21:14:20",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 730,
+    "station_id": "2-39-83-386",
+    "status": "maintenance",
+    "reported_at": "2020-06-29 19:47:32",
+    "note": "charging connector inspection required"
+  },
+  {
+    "status_id": 731,
+    "station_id": "2-39-83-386",
+    "status": "maintenance",
+    "reported_at": "2020-07-07 00:36:59",
+    "note": "preventive maintenance visit"
+  },
+  {
+    "status_id": 732,
+    "station_id": "2-39-83-386",
+    "status": "offline",
+    "reported_at": "2020-07-16 14:45:46",
+    "note": "station is not responding"
+  },
+  {
+    "status_id": 733,
+    "station_id": "2-39-83-386",
+    "status": "active",
+    "reported_at": "2020-07-30 04:27:17",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 734,
+    "station_id": "2-39-83-386",
+    "status": "active",
+    "reported_at": "2020-08-21 15:21:29",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 735,
+    "station_id": "2-39-83-386",
+    "status": "active",
+    "reported_at": "2020-09-18 09:39:47",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 736,
+    "station_id": "2-39-83-386",
+    "status": "active",
+    "reported_at": "2020-09-27 06:40:52",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 737,
+    "station_id": "2-39-83-386",
+    "status": "active",
+    "reported_at": "2020-11-01 22:06:27",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 738,
+    "station_id": "2-39-83-386",
+    "status": "active",
+    "reported_at": "2020-11-23 20:32:54",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 739,
+    "station_id": "2-39-83-386",
+    "status": "active",
+    "reported_at": "2020-11-24 20:38:56",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 740,
+    "station_id": "2-39-83-386",
+    "status": "active",
+    "reported_at": "2020-12-25 19:37:01",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 741,
+    "station_id": "2-39-83-387",
+    "status": "active",
+    "reported_at": "2020-01-03 14:28:48",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 742,
+    "station_id": "2-39-83-387",
+    "status": "active",
+    "reported_at": "2020-01-14 03:53:03",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 743,
+    "station_id": "2-39-83-387",
+    "status": "active",
+    "reported_at": "2020-02-04 08:17:52",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 744,
+    "station_id": "2-39-83-387",
+    "status": "active",
+    "reported_at": "2020-02-13 15:36:54",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 745,
+    "station_id": "2-39-83-387",
+    "status": "active",
+    "reported_at": "2020-03-11 04:11:15",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 746,
+    "station_id": "2-39-83-387",
+    "status": "maintenance",
+    "reported_at": "2020-04-06 10:07:58",
+    "note": "charging connector inspection required"
+  },
+  {
+    "status_id": 747,
+    "station_id": "2-39-83-387",
+    "status": "maintenance",
+    "reported_at": "2020-05-09 00:38:05",
+    "note": "preventive maintenance visit"
+  },
+  {
+    "status_id": 748,
+    "station_id": "2-39-83-387",
+    "status": "active",
+    "reported_at": "2020-06-08 03:48:21",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 749,
+    "station_id": "2-39-83-387",
+    "status": "active",
+    "reported_at": "2020-06-20 11:14:37",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 750,
+    "station_id": "2-39-83-387",
+    "status": "offline",
+    "reported_at": "2020-07-12 07:44:20",
+    "note": "network connection lost"
+  },
+  {
+    "status_id": 751,
+    "station_id": "2-39-83-387",
+    "status": "offline",
+    "reported_at": "2020-07-25 21:27:24",
+    "note": "power interruption reported"
+  },
+  {
+    "status_id": 752,
+    "station_id": "2-39-83-387",
+    "status": "active",
+    "reported_at": "2020-08-10 18:49:01",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 753,
+    "station_id": "2-39-83-387",
+    "status": "offline",
+    "reported_at": "2020-08-13 12:42:49",
+    "note": "power interruption reported"
+  },
+  {
+    "status_id": 754,
+    "station_id": "2-39-83-387",
+    "status": "active",
+    "reported_at": "2020-08-27 10:25:07",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 755,
+    "station_id": "2-39-83-387",
+    "status": "active",
+    "reported_at": "2020-08-31 02:56:56",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 756,
+    "station_id": "2-39-83-387",
+    "status": "active",
+    "reported_at": "2020-10-05 20:16:20",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 757,
+    "station_id": "2-39-83-387",
+    "status": "active",
+    "reported_at": "2020-10-08 22:54:19",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 758,
+    "station_id": "2-39-83-387",
+    "status": "active",
+    "reported_at": "2020-11-09 00:01:30",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 759,
+    "station_id": "2-39-83-387",
+    "status": "active",
+    "reported_at": "2020-12-09 23:53:21",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 760,
+    "station_id": "2-39-83-387",
+    "status": "active",
+    "reported_at": "2020-12-20 03:10:03",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 761,
+    "station_id": "2-39-88-24",
+    "status": "active",
+    "reported_at": "2020-02-02 21:17:11",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 762,
+    "station_id": "2-39-88-24",
+    "status": "active",
+    "reported_at": "2020-02-05 14:49:12",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 763,
+    "station_id": "2-39-88-24",
+    "status": "offline",
+    "reported_at": "2020-02-13 21:23:07",
+    "note": "station failed remote health check"
+  },
+  {
+    "status_id": 764,
+    "station_id": "2-39-88-24",
+    "status": "active",
+    "reported_at": "2020-03-02 11:18:59",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 765,
+    "station_id": "2-39-88-24",
+    "status": "maintenance",
+    "reported_at": "2020-03-21 15:55:01",
+    "note": "scheduled maintenance"
+  },
+  {
+    "status_id": 766,
+    "station_id": "2-39-88-24",
+    "status": "active",
+    "reported_at": "2020-03-24 19:48:38",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 767,
+    "station_id": "2-39-88-24",
+    "status": "active",
+    "reported_at": "2020-04-21 06:36:26",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 768,
+    "station_id": "2-39-88-24",
+    "status": "active",
+    "reported_at": "2020-05-24 14:34:11",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 769,
+    "station_id": "2-39-88-24",
+    "status": "active",
+    "reported_at": "2020-06-16 17:27:50",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 770,
+    "station_id": "2-39-88-24",
+    "status": "active",
+    "reported_at": "2020-06-19 16:01:46",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 771,
+    "station_id": "2-39-88-24",
+    "status": "active",
+    "reported_at": "2020-06-22 20:40:48",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 772,
+    "station_id": "2-39-88-24",
+    "status": "active",
+    "reported_at": "2020-07-03 07:05:44",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 773,
+    "station_id": "2-39-88-24",
+    "status": "active",
+    "reported_at": "2020-08-19 12:37:37",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 774,
+    "station_id": "2-39-88-24",
+    "status": "active",
+    "reported_at": "2020-08-31 21:50:11",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 775,
+    "station_id": "2-39-88-24",
+    "status": "offline",
+    "reported_at": "2020-09-28 09:03:14",
+    "note": "station is not responding"
+  },
+  {
+    "status_id": 776,
+    "station_id": "2-39-88-24",
+    "status": "active",
+    "reported_at": "2020-09-28 10:47:09",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 777,
+    "station_id": "2-39-88-24",
+    "status": "active",
+    "reported_at": "2020-10-22 00:19:17",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 778,
+    "station_id": "2-39-88-24",
+    "status": "active",
+    "reported_at": "2020-11-20 00:50:23",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 779,
+    "station_id": "2-39-88-24",
+    "status": "maintenance",
+    "reported_at": "2020-11-29 13:03:44",
+    "note": "charging connector inspection required"
+  },
+  {
+    "status_id": 780,
+    "station_id": "2-39-88-24",
+    "status": "active",
+    "reported_at": "2020-12-16 15:25:06",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 781,
+    "station_id": "2-39-88-438",
+    "status": "active",
+    "reported_at": "2020-01-22 18:10:45",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 782,
+    "station_id": "2-39-88-438",
+    "status": "active",
+    "reported_at": "2020-02-07 20:55:42",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 783,
+    "station_id": "2-39-88-438",
+    "status": "active",
+    "reported_at": "2020-02-28 00:49:03",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 784,
+    "station_id": "2-39-88-438",
+    "status": "maintenance",
+    "reported_at": "2020-03-07 10:42:44",
+    "note": "technician inspection requested"
+  },
+  {
+    "status_id": 785,
+    "station_id": "2-39-88-438",
+    "status": "active",
+    "reported_at": "2020-03-11 07:18:31",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 786,
+    "station_id": "2-39-88-438",
+    "status": "active",
+    "reported_at": "2020-03-14 13:18:42",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 787,
+    "station_id": "2-39-88-438",
+    "status": "active",
+    "reported_at": "2020-04-24 05:16:42",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 788,
+    "station_id": "2-39-88-438",
+    "status": "active",
+    "reported_at": "2020-05-04 17:38:11",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 789,
+    "station_id": "2-39-88-438",
+    "status": "active",
+    "reported_at": "2020-05-10 14:05:52",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 790,
+    "station_id": "2-39-88-438",
+    "status": "maintenance",
+    "reported_at": "2020-05-25 06:05:30",
+    "note": "charging cable needs inspection"
+  },
+  {
+    "status_id": 791,
+    "station_id": "2-39-88-438",
+    "status": "active",
+    "reported_at": "2020-05-29 15:03:45",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 792,
+    "station_id": "2-39-88-438",
+    "status": "active",
+    "reported_at": "2020-06-05 23:23:49",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 793,
+    "station_id": "2-39-88-438",
+    "status": "maintenance",
+    "reported_at": "2020-07-01 08:30:30",
+    "note": "technician inspection requested"
+  },
+  {
+    "status_id": 794,
+    "station_id": "2-39-88-438",
+    "status": "active",
+    "reported_at": "2020-07-08 08:04:11",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 795,
+    "station_id": "2-39-88-438",
+    "status": "active",
+    "reported_at": "2020-07-09 15:45:14",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 796,
+    "station_id": "2-39-88-438",
+    "status": "active",
+    "reported_at": "2020-07-11 13:49:22",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 797,
+    "station_id": "2-39-88-438",
+    "status": "active",
+    "reported_at": "2020-07-13 13:05:45",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 798,
+    "station_id": "2-39-88-438",
+    "status": "active",
+    "reported_at": "2020-08-08 23:46:38",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 799,
+    "station_id": "2-39-88-438",
+    "status": "maintenance",
+    "reported_at": "2020-08-27 03:44:36",
+    "note": "scheduled maintenance"
+  },
+  {
+    "status_id": 800,
+    "station_id": "2-39-88-438",
+    "status": "active",
+    "reported_at": "2020-09-27 20:27:31",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 801,
+    "station_id": "2-39-89-25",
+    "status": "active",
+    "reported_at": "2020-01-06 23:31:54",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 802,
+    "station_id": "2-39-89-25",
+    "status": "active",
+    "reported_at": "2020-01-25 04:23:33",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 803,
+    "station_id": "2-39-89-25",
+    "status": "active",
+    "reported_at": "2020-01-26 00:57:15",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 804,
+    "station_id": "2-39-89-25",
+    "status": "offline",
+    "reported_at": "2020-01-28 07:59:31",
+    "note": "charger unavailable to drivers"
+  },
+  {
+    "status_id": 805,
+    "station_id": "2-39-89-25",
+    "status": "active",
+    "reported_at": "2020-01-28 19:57:04",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 806,
+    "station_id": "2-39-89-25",
+    "status": "active",
+    "reported_at": "2020-05-08 18:54:01",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 807,
+    "station_id": "2-39-89-25",
+    "status": "offline",
+    "reported_at": "2020-06-12 11:23:59",
+    "note": "charger unavailable to drivers"
+  },
+  {
+    "status_id": 808,
+    "station_id": "2-39-89-25",
+    "status": "active",
+    "reported_at": "2020-06-29 07:15:47",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 809,
+    "station_id": "2-39-89-25",
+    "status": "active",
+    "reported_at": "2020-07-17 15:50:30",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 810,
+    "station_id": "2-39-89-25",
+    "status": "active",
+    "reported_at": "2020-08-24 13:14:06",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 811,
+    "station_id": "2-39-89-25",
+    "status": "active",
+    "reported_at": "2020-08-29 09:25:46",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 812,
+    "station_id": "2-39-89-25",
+    "status": "active",
+    "reported_at": "2020-09-06 16:35:28",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 813,
+    "station_id": "2-39-89-25",
+    "status": "maintenance",
+    "reported_at": "2020-09-29 19:31:59",
+    "note": "charging cable needs inspection"
+  },
+  {
+    "status_id": 814,
+    "station_id": "2-39-89-25",
+    "status": "maintenance",
+    "reported_at": "2020-10-10 02:12:30",
+    "note": "charging connector inspection required"
+  },
+  {
+    "status_id": 815,
+    "station_id": "2-39-89-25",
+    "status": "offline",
+    "reported_at": "2020-10-29 06:38:11",
+    "note": "station is not responding"
+  },
+  {
+    "status_id": 816,
+    "station_id": "2-39-89-25",
+    "status": "active",
+    "reported_at": "2020-11-17 21:14:21",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 817,
+    "station_id": "2-39-89-25",
+    "status": "active",
+    "reported_at": "2020-12-14 01:03:34",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 818,
+    "station_id": "2-39-89-25",
+    "status": "active",
+    "reported_at": "2020-12-16 21:15:41",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 819,
+    "station_id": "2-39-89-25",
+    "status": "active",
+    "reported_at": "2020-12-22 22:03:38",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 820,
+    "station_id": "2-39-89-25",
+    "status": "maintenance",
+    "reported_at": "2020-12-26 23:14:57",
+    "note": "charging connector inspection required"
+  },
+  {
+    "status_id": 821,
+    "station_id": "2-39-89-439",
+    "status": "active",
+    "reported_at": "2020-02-07 07:41:18",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 822,
+    "station_id": "2-39-89-439",
+    "status": "active",
+    "reported_at": "2020-03-24 16:33:03",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 823,
+    "station_id": "2-39-89-439",
+    "status": "active",
+    "reported_at": "2020-03-26 20:16:09",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 824,
+    "station_id": "2-39-89-439",
+    "status": "active",
+    "reported_at": "2020-03-30 10:15:29",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 825,
+    "station_id": "2-39-89-439",
+    "status": "active",
+    "reported_at": "2020-04-22 01:19:09",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 826,
+    "station_id": "2-39-89-439",
+    "status": "active",
+    "reported_at": "2020-05-03 20:07:16",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 827,
+    "station_id": "2-39-89-439",
+    "status": "active",
+    "reported_at": "2020-05-06 18:55:05",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 828,
+    "station_id": "2-39-89-439",
+    "status": "maintenance",
+    "reported_at": "2020-05-28 12:36:27",
+    "note": "preventive maintenance visit"
+  },
+  {
+    "status_id": 829,
+    "station_id": "2-39-89-439",
+    "status": "maintenance",
+    "reported_at": "2020-06-11 04:03:38",
+    "note": "charging connector inspection required"
+  },
+  {
+    "status_id": 830,
+    "station_id": "2-39-89-439",
+    "status": "maintenance",
+    "reported_at": "2020-06-21 16:34:48",
+    "note": "charging connector inspection required"
+  },
+  {
+    "status_id": 831,
+    "station_id": "2-39-89-439",
+    "status": "active",
+    "reported_at": "2020-07-07 14:46:19",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 832,
+    "station_id": "2-39-89-439",
+    "status": "offline",
+    "reported_at": "2020-07-22 17:06:27",
+    "note": "station failed remote health check"
+  },
+  {
+    "status_id": 833,
+    "station_id": "2-39-89-439",
+    "status": "active",
+    "reported_at": "2020-08-07 21:25:25",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 834,
+    "station_id": "2-39-89-439",
+    "status": "maintenance",
+    "reported_at": "2020-08-07 21:58:43",
+    "note": "preventive maintenance visit"
+  },
+  {
+    "status_id": 835,
+    "station_id": "2-39-89-439",
+    "status": "active",
+    "reported_at": "2020-08-31 04:31:24",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 836,
+    "station_id": "2-39-89-439",
+    "status": "active",
+    "reported_at": "2020-09-06 13:37:32",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 837,
+    "station_id": "2-39-89-439",
+    "status": "active",
+    "reported_at": "2020-09-07 18:51:45",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 838,
+    "station_id": "2-39-89-439",
+    "status": "active",
+    "reported_at": "2020-10-21 03:59:43",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 839,
+    "station_id": "2-39-89-439",
+    "status": "active",
+    "reported_at": "2020-11-27 17:20:25",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 840,
+    "station_id": "2-39-89-439",
+    "status": "active",
+    "reported_at": "2020-12-13 03:39:58",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 841,
+    "station_id": "2-39-90-26",
+    "status": "active",
+    "reported_at": "2020-01-29 22:11:26",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 842,
+    "station_id": "2-39-90-26",
+    "status": "active",
+    "reported_at": "2020-02-01 16:11:41",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 843,
+    "station_id": "2-39-90-26",
+    "status": "active",
+    "reported_at": "2020-02-16 20:12:22",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 844,
+    "station_id": "2-39-90-26",
+    "status": "active",
+    "reported_at": "2020-03-22 04:34:34",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 845,
+    "station_id": "2-39-90-26",
+    "status": "active",
+    "reported_at": "2020-04-05 14:16:41",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 846,
+    "station_id": "2-39-90-26",
+    "status": "active",
+    "reported_at": "2020-04-16 04:33:59",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 847,
+    "station_id": "2-39-90-26",
+    "status": "active",
+    "reported_at": "2020-04-29 05:45:15",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 848,
+    "station_id": "2-39-90-26",
+    "status": "active",
+    "reported_at": "2020-05-29 19:43:30",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 849,
+    "station_id": "2-39-90-26",
+    "status": "active",
+    "reported_at": "2020-06-09 22:29:05",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 850,
+    "station_id": "2-39-90-26",
+    "status": "active",
+    "reported_at": "2020-06-30 01:34:10",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 851,
+    "station_id": "2-39-90-26",
+    "status": "maintenance",
+    "reported_at": "2020-07-29 00:13:56",
+    "note": "charging connector inspection required"
+  },
+  {
+    "status_id": 852,
+    "station_id": "2-39-90-26",
+    "status": "active",
+    "reported_at": "2020-08-25 16:41:27",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 853,
+    "station_id": "2-39-90-26",
+    "status": "active",
+    "reported_at": "2020-08-29 07:22:44",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 854,
+    "station_id": "2-39-90-26",
+    "status": "active",
+    "reported_at": "2020-09-07 13:14:20",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 855,
+    "station_id": "2-39-90-26",
+    "status": "active",
+    "reported_at": "2020-09-08 02:14:47",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 856,
+    "station_id": "2-39-90-26",
+    "status": "active",
+    "reported_at": "2020-09-08 20:53:38",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 857,
+    "station_id": "2-39-90-26",
+    "status": "active",
+    "reported_at": "2020-09-11 23:47:33",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 858,
+    "station_id": "2-39-90-26",
+    "status": "active",
+    "reported_at": "2020-09-12 12:18:22",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 859,
+    "station_id": "2-39-90-26",
+    "status": "offline",
+    "reported_at": "2020-12-19 19:25:23",
+    "note": "station failed remote health check"
+  },
+  {
+    "status_id": 860,
+    "station_id": "2-39-90-26",
+    "status": "offline",
+    "reported_at": "2020-12-24 08:55:59",
+    "note": "station is not responding"
+  },
+  {
+    "status_id": 861,
+    "station_id": "2-39-90-440",
+    "status": "active",
+    "reported_at": "2020-01-24 11:55:03",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 862,
+    "station_id": "2-39-90-440",
+    "status": "active",
+    "reported_at": "2020-02-13 21:09:29",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 863,
+    "station_id": "2-39-90-440",
+    "status": "offline",
+    "reported_at": "2020-02-26 11:15:44",
+    "note": "station is not responding"
+  },
+  {
+    "status_id": 864,
+    "station_id": "2-39-90-440",
+    "status": "active",
+    "reported_at": "2020-04-18 11:38:38",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 865,
+    "station_id": "2-39-90-440",
+    "status": "active",
+    "reported_at": "2020-04-24 23:32:45",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 866,
+    "station_id": "2-39-90-440",
+    "status": "active",
+    "reported_at": "2020-05-15 21:22:31",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 867,
+    "station_id": "2-39-90-440",
+    "status": "maintenance",
+    "reported_at": "2020-05-28 11:12:13",
+    "note": "scheduled maintenance"
+  },
+  {
+    "status_id": 868,
+    "station_id": "2-39-90-440",
+    "status": "maintenance",
+    "reported_at": "2020-05-30 15:13:20",
+    "note": "technician inspection requested"
+  },
+  {
+    "status_id": 869,
+    "station_id": "2-39-90-440",
+    "status": "maintenance",
+    "reported_at": "2020-06-04 04:19:42",
+    "note": "preventive maintenance visit"
+  },
+  {
+    "status_id": 870,
+    "station_id": "2-39-90-440",
+    "status": "active",
+    "reported_at": "2020-06-19 04:55:34",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 871,
+    "station_id": "2-39-90-440",
+    "status": "active",
+    "reported_at": "2020-06-22 09:24:17",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 872,
+    "station_id": "2-39-90-440",
+    "status": "active",
+    "reported_at": "2020-07-11 14:41:34",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 873,
+    "station_id": "2-39-90-440",
+    "status": "active",
+    "reported_at": "2020-07-17 12:21:36",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 874,
+    "station_id": "2-39-90-440",
+    "status": "active",
+    "reported_at": "2020-07-25 09:39:33",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 875,
+    "station_id": "2-39-90-440",
+    "status": "offline",
+    "reported_at": "2020-09-24 22:16:29",
+    "note": "station is not responding"
+  },
+  {
+    "status_id": 876,
+    "station_id": "2-39-90-440",
+    "status": "active",
+    "reported_at": "2020-09-27 19:27:44",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 877,
+    "station_id": "2-39-90-440",
+    "status": "active",
+    "reported_at": "2020-10-10 06:57:18",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 878,
+    "station_id": "2-39-90-440",
+    "status": "active",
+    "reported_at": "2020-10-23 08:27:24",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 879,
+    "station_id": "2-39-90-440",
+    "status": "active",
+    "reported_at": "2020-12-22 20:48:12",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 880,
+    "station_id": "2-39-90-440",
+    "status": "active",
+    "reported_at": "2020-12-25 07:36:24",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 881,
+    "station_id": "2-39-91-437",
+    "status": "active",
+    "reported_at": "2020-01-23 20:24:38",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 882,
+    "station_id": "2-39-91-437",
+    "status": "active",
+    "reported_at": "2020-03-15 03:52:50",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 883,
+    "station_id": "2-39-91-437",
+    "status": "active",
+    "reported_at": "2020-04-23 05:12:05",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 884,
+    "station_id": "2-39-91-437",
+    "status": "active",
+    "reported_at": "2020-06-08 14:18:38",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 885,
+    "station_id": "2-39-91-437",
+    "status": "active",
+    "reported_at": "2020-07-08 15:23:44",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 886,
+    "station_id": "2-39-91-437",
+    "status": "maintenance",
+    "reported_at": "2020-07-24 12:46:39",
+    "note": "preventive maintenance visit"
+  },
+  {
+    "status_id": 887,
+    "station_id": "2-39-91-437",
+    "status": "active",
+    "reported_at": "2020-09-05 16:33:11",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 888,
+    "station_id": "2-39-91-437",
+    "status": "active",
+    "reported_at": "2020-09-05 23:56:13",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 889,
+    "station_id": "2-39-91-437",
+    "status": "active",
+    "reported_at": "2020-09-15 02:13:10",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 890,
+    "station_id": "2-39-91-437",
+    "status": "active",
+    "reported_at": "2020-09-20 11:40:56",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 891,
+    "station_id": "2-39-91-437",
+    "status": "active",
+    "reported_at": "2020-09-28 21:26:42",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 892,
+    "station_id": "2-39-91-437",
+    "status": "active",
+    "reported_at": "2020-09-29 04:27:43",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 893,
+    "station_id": "2-39-91-437",
+    "status": "active",
+    "reported_at": "2020-09-30 17:52:28",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 894,
+    "station_id": "2-39-91-437",
+    "status": "active",
+    "reported_at": "2020-10-09 02:09:15",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 895,
+    "station_id": "2-39-91-437",
+    "status": "active",
+    "reported_at": "2020-10-14 00:24:03",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 896,
+    "station_id": "2-39-91-437",
+    "status": "active",
+    "reported_at": "2020-10-23 01:11:10",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 897,
+    "station_id": "2-39-91-437",
+    "status": "active",
+    "reported_at": "2020-11-24 02:25:11",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 898,
+    "station_id": "2-39-91-437",
+    "status": "maintenance",
+    "reported_at": "2020-12-11 05:45:19",
+    "note": "preventive maintenance visit"
+  },
+  {
+    "status_id": 899,
+    "station_id": "2-39-91-437",
+    "status": "active",
+    "reported_at": "2020-12-19 04:33:24",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 900,
+    "station_id": "2-39-91-437",
+    "status": "active",
+    "reported_at": "2020-12-20 03:29:26",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 901,
+    "station_id": "2-39-91-441",
+    "status": "active",
+    "reported_at": "2020-01-12 09:28:16",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 902,
+    "station_id": "2-39-91-441",
+    "status": "active",
+    "reported_at": "2020-02-03 22:38:40",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 903,
+    "station_id": "2-39-91-441",
+    "status": "maintenance",
+    "reported_at": "2020-02-13 03:45:33",
+    "note": "technician inspection requested"
+  },
+  {
+    "status_id": 904,
+    "station_id": "2-39-91-441",
+    "status": "active",
+    "reported_at": "2020-02-24 14:19:11",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 905,
+    "station_id": "2-39-91-441",
+    "status": "offline",
+    "reported_at": "2020-03-10 13:23:09",
+    "note": "charger unavailable to drivers"
+  },
+  {
+    "status_id": 906,
+    "station_id": "2-39-91-441",
+    "status": "active",
+    "reported_at": "2020-03-15 04:20:57",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 907,
+    "station_id": "2-39-91-441",
+    "status": "active",
+    "reported_at": "2020-03-24 00:58:47",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 908,
+    "station_id": "2-39-91-441",
+    "status": "active",
+    "reported_at": "2020-05-29 13:56:05",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 909,
+    "station_id": "2-39-91-441",
+    "status": "active",
+    "reported_at": "2020-07-03 11:29:04",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 910,
+    "station_id": "2-39-91-441",
+    "status": "active",
+    "reported_at": "2020-07-25 03:47:51",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 911,
+    "station_id": "2-39-91-441",
+    "status": "active",
+    "reported_at": "2020-08-11 16:20:42",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 912,
+    "station_id": "2-39-91-441",
+    "status": "offline",
+    "reported_at": "2020-08-14 04:29:47",
+    "note": "network connection lost"
+  },
+  {
+    "status_id": 913,
+    "station_id": "2-39-91-441",
+    "status": "active",
+    "reported_at": "2020-08-15 21:23:02",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 914,
+    "station_id": "2-39-91-441",
+    "status": "active",
+    "reported_at": "2020-08-25 09:41:55",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 915,
+    "station_id": "2-39-91-441",
+    "status": "active",
+    "reported_at": "2020-10-12 14:45:21",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 916,
+    "station_id": "2-39-91-441",
+    "status": "offline",
+    "reported_at": "2020-10-14 06:21:48",
+    "note": "station failed remote health check"
+  },
+  {
+    "status_id": 917,
+    "station_id": "2-39-91-441",
+    "status": "active",
+    "reported_at": "2020-11-30 21:04:40",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 918,
+    "station_id": "2-39-91-441",
+    "status": "active",
+    "reported_at": "2020-12-13 01:26:50",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 919,
+    "station_id": "2-39-91-441",
+    "status": "active",
+    "reported_at": "2020-12-23 02:36:41",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 920,
+    "station_id": "2-39-91-441",
+    "status": "active",
+    "reported_at": "2020-12-31 00:39:52",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 921,
+    "station_id": "2-39-92-436",
+    "status": "active",
+    "reported_at": "2020-02-17 09:54:00",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 922,
+    "station_id": "2-39-92-436",
+    "status": "maintenance",
+    "reported_at": "2020-03-03 01:38:50",
+    "note": "charging cable needs inspection"
+  },
+  {
+    "status_id": 923,
+    "station_id": "2-39-92-436",
+    "status": "offline",
+    "reported_at": "2020-03-08 04:12:04",
+    "note": "network connection lost"
+  },
+  {
+    "status_id": 924,
+    "station_id": "2-39-92-436",
+    "status": "offline",
+    "reported_at": "2020-03-17 10:51:08",
+    "note": "station is not responding"
+  },
+  {
+    "status_id": 925,
+    "station_id": "2-39-92-436",
+    "status": "active",
+    "reported_at": "2020-03-20 18:13:37",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 926,
+    "station_id": "2-39-92-436",
+    "status": "offline",
+    "reported_at": "2020-03-23 05:00:42",
+    "note": "station failed remote health check"
+  },
+  {
+    "status_id": 927,
+    "station_id": "2-39-92-436",
+    "status": "active",
+    "reported_at": "2020-04-18 06:13:44",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 928,
+    "station_id": "2-39-92-436",
+    "status": "active",
+    "reported_at": "2020-04-26 10:25:54",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 929,
+    "station_id": "2-39-92-436",
+    "status": "offline",
+    "reported_at": "2020-04-30 01:20:16",
+    "note": "station failed remote health check"
+  },
+  {
+    "status_id": 930,
+    "station_id": "2-39-92-436",
+    "status": "active",
+    "reported_at": "2020-05-10 19:04:14",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 931,
+    "station_id": "2-39-92-436",
+    "status": "active",
+    "reported_at": "2020-06-10 11:55:43",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 932,
+    "station_id": "2-39-92-436",
+    "status": "active",
+    "reported_at": "2020-07-20 22:03:04",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 933,
+    "station_id": "2-39-92-436",
+    "status": "active",
+    "reported_at": "2020-08-09 21:29:03",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 934,
+    "station_id": "2-39-92-436",
+    "status": "active",
+    "reported_at": "2020-08-11 20:51:20",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 935,
+    "station_id": "2-39-92-436",
+    "status": "active",
+    "reported_at": "2020-10-29 15:34:01",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 936,
+    "station_id": "2-39-92-436",
+    "status": "active",
+    "reported_at": "2020-11-17 08:28:17",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 937,
+    "station_id": "2-39-92-436",
+    "status": "active",
+    "reported_at": "2020-11-18 04:47:54",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 938,
+    "station_id": "2-39-92-436",
+    "status": "offline",
+    "reported_at": "2020-11-18 08:14:05",
+    "note": "charger unavailable to drivers"
+  },
+  {
+    "status_id": 939,
+    "station_id": "2-39-92-436",
+    "status": "active",
+    "reported_at": "2020-12-10 06:33:29",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 940,
+    "station_id": "2-39-92-436",
+    "status": "offline",
+    "reported_at": "2020-12-27 15:21:44",
+    "note": "power interruption reported"
+  },
+  {
+    "status_id": 941,
+    "station_id": "2-39-92-442",
+    "status": "active",
+    "reported_at": "2020-01-08 15:17:27",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 942,
+    "station_id": "2-39-92-442",
+    "status": "active",
+    "reported_at": "2020-01-19 19:54:45",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 943,
+    "station_id": "2-39-92-442",
+    "status": "active",
+    "reported_at": "2020-01-24 00:56:00",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 944,
+    "station_id": "2-39-92-442",
+    "status": "offline",
+    "reported_at": "2020-01-29 22:27:01",
+    "note": "station is not responding"
+  },
+  {
+    "status_id": 945,
+    "station_id": "2-39-92-442",
+    "status": "active",
+    "reported_at": "2020-02-26 18:42:49",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 946,
+    "station_id": "2-39-92-442",
+    "status": "maintenance",
+    "reported_at": "2020-03-09 19:32:19",
+    "note": "technician inspection requested"
+  },
+  {
+    "status_id": 947,
+    "station_id": "2-39-92-442",
+    "status": "maintenance",
+    "reported_at": "2020-04-28 08:57:54",
+    "note": "technician inspection requested"
+  },
+  {
+    "status_id": 948,
+    "station_id": "2-39-92-442",
+    "status": "active",
+    "reported_at": "2020-05-17 10:59:28",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 949,
+    "station_id": "2-39-92-442",
+    "status": "active",
+    "reported_at": "2020-05-20 03:31:31",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 950,
+    "station_id": "2-39-92-442",
+    "status": "maintenance",
+    "reported_at": "2020-06-03 12:38:22",
+    "note": "charging cable needs inspection"
+  },
+  {
+    "status_id": 951,
+    "station_id": "2-39-92-442",
+    "status": "active",
+    "reported_at": "2020-06-15 19:18:38",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 952,
+    "station_id": "2-39-92-442",
+    "status": "active",
+    "reported_at": "2020-07-02 11:06:32",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 953,
+    "station_id": "2-39-92-442",
+    "status": "active",
+    "reported_at": "2020-07-28 08:59:21",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 954,
+    "station_id": "2-39-92-442",
+    "status": "active",
+    "reported_at": "2020-08-13 09:18:33",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 955,
+    "station_id": "2-39-92-442",
+    "status": "active",
+    "reported_at": "2020-10-03 11:38:26",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 956,
+    "station_id": "2-39-92-442",
+    "status": "active",
+    "reported_at": "2020-10-14 19:41:30",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 957,
+    "station_id": "2-39-92-442",
+    "status": "active",
+    "reported_at": "2020-10-27 23:21:29",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 958,
+    "station_id": "2-39-92-442",
+    "status": "active",
+    "reported_at": "2020-11-10 08:37:16",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 959,
+    "station_id": "2-39-92-442",
+    "status": "maintenance",
+    "reported_at": "2020-11-22 20:21:19",
+    "note": "charging cable needs inspection"
+  },
+  {
+    "status_id": 960,
+    "station_id": "2-39-92-442",
+    "status": "active",
+    "reported_at": "2020-12-23 11:47:46",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 961,
+    "station_id": "2-39-95-27",
+    "status": "active",
+    "reported_at": "2020-02-14 09:49:40",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 962,
+    "station_id": "2-39-95-27",
+    "status": "active",
+    "reported_at": "2020-02-19 09:20:33",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 963,
+    "station_id": "2-39-95-27",
+    "status": "active",
+    "reported_at": "2020-02-25 11:30:01",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 964,
+    "station_id": "2-39-95-27",
+    "status": "active",
+    "reported_at": "2020-03-31 15:19:08",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 965,
+    "station_id": "2-39-95-27",
+    "status": "active",
+    "reported_at": "2020-04-02 13:39:36",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 966,
+    "station_id": "2-39-95-27",
+    "status": "active",
+    "reported_at": "2020-04-12 07:51:27",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 967,
+    "station_id": "2-39-95-27",
+    "status": "active",
+    "reported_at": "2020-04-30 21:59:33",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 968,
+    "station_id": "2-39-95-27",
+    "status": "active",
+    "reported_at": "2020-05-06 05:38:10",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 969,
+    "station_id": "2-39-95-27",
+    "status": "active",
+    "reported_at": "2020-05-07 22:53:16",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 970,
+    "station_id": "2-39-95-27",
+    "status": "active",
+    "reported_at": "2020-05-23 13:31:34",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 971,
+    "station_id": "2-39-95-27",
+    "status": "active",
+    "reported_at": "2020-06-13 22:32:40",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 972,
+    "station_id": "2-39-95-27",
+    "status": "active",
+    "reported_at": "2020-06-20 08:08:25",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 973,
+    "station_id": "2-39-95-27",
+    "status": "active",
+    "reported_at": "2020-08-05 05:35:09",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 974,
+    "station_id": "2-39-95-27",
+    "status": "active",
+    "reported_at": "2020-08-27 15:31:27",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 975,
+    "station_id": "2-39-95-27",
+    "status": "active",
+    "reported_at": "2020-09-26 08:53:55",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 976,
+    "station_id": "2-39-95-27",
+    "status": "active",
+    "reported_at": "2020-11-04 09:22:45",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 977,
+    "station_id": "2-39-95-27",
+    "status": "active",
+    "reported_at": "2020-11-10 13:23:59",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 978,
+    "station_id": "2-39-95-27",
+    "status": "active",
+    "reported_at": "2020-11-20 08:28:29",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 979,
+    "station_id": "2-39-95-27",
+    "status": "offline",
+    "reported_at": "2020-12-05 05:52:24",
+    "note": "power interruption reported"
+  },
+  {
+    "status_id": 980,
+    "station_id": "2-39-95-27",
+    "status": "active",
+    "reported_at": "2020-12-19 08:44:13",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 981,
+    "station_id": "2-39-95-444",
+    "status": "active",
+    "reported_at": "2020-01-14 20:49:11",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 982,
+    "station_id": "2-39-95-444",
+    "status": "active",
+    "reported_at": "2020-02-14 06:52:25",
+    "note": "station passed daily health check"
+  },
+  {
+    "status_id": 983,
+    "station_id": "2-39-95-444",
+    "status": "active",
+    "reported_at": "2020-02-26 10:59:12",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 984,
+    "station_id": "2-39-95-444",
+    "status": "active",
+    "reported_at": "2020-03-12 17:05:21",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 985,
+    "station_id": "2-39-95-444",
+    "status": "active",
+    "reported_at": "2020-04-01 20:49:40",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 986,
+    "station_id": "2-39-95-444",
+    "status": "active",
+    "reported_at": "2020-04-02 14:32:26",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 987,
+    "station_id": "2-39-95-444",
+    "status": "maintenance",
+    "reported_at": "2020-05-06 14:39:25",
+    "note": "technician inspection requested"
+  },
+  {
+    "status_id": 988,
+    "station_id": "2-39-95-444",
+    "status": "active",
+    "reported_at": "2020-05-12 15:54:23",
+    "note": "routine status check completed"
+  },
+  {
+    "status_id": 989,
+    "station_id": "2-39-95-444",
+    "status": "offline",
+    "reported_at": "2020-05-13 04:00:41",
+    "note": "station failed remote health check"
+  },
+  {
+    "status_id": 990,
+    "station_id": "2-39-95-444",
+    "status": "active",
+    "reported_at": "2020-06-06 16:04:12",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 991,
+    "station_id": "2-39-95-444",
+    "status": "active",
+    "reported_at": "2020-06-25 08:52:23",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 992,
+    "station_id": "2-39-95-444",
+    "status": "active",
+    "reported_at": "2020-07-02 17:41:22",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 993,
+    "station_id": "2-39-95-444",
+    "status": "active",
+    "reported_at": "2020-08-04 12:16:34",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 994,
+    "station_id": "2-39-95-444",
+    "status": "active",
+    "reported_at": "2020-08-13 17:25:27",
+    "note": "station returned to service"
+  },
+  {
+    "status_id": 995,
+    "station_id": "2-39-95-444",
+    "status": "active",
+    "reported_at": "2020-09-25 09:34:30",
+    "note": "station operating normally"
+  },
+  {
+    "status_id": 996,
+    "station_id": "2-39-95-444",
+    "status": "offline",
+    "reported_at": "2020-10-02 23:40:41",
+    "note": "network connection lost"
+  },
+  {
+    "status_id": 997,
+    "station_id": "2-39-95-444",
+    "status": "maintenance",
+    "reported_at": "2020-11-05 15:39:58",
+    "note": "preventive maintenance visit"
+  },
+  {
+    "status_id": 998,
+    "station_id": "2-39-95-444",
+    "status": "offline",
+    "reported_at": "2020-11-09 06:18:07",
+    "note": "charger unavailable to drivers"
+  },
+  {
+    "status_id": 999,
+    "station_id": "2-39-95-444",
+    "status": "active",
+    "reported_at": "2020-11-10 06:07:17",
+    "note": "charger available for normal use"
+  },
+  {
+    "status_id": 1000,
+    "station_id": "2-39-95-444",
+    "status": "active",
+    "reported_at": "2020-12-30 05:26:38",
+    "note": "routine status check completed"
+  }
+]

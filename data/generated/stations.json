@@ -1,0 +1,402 @@
+[
+  {
+    "station_id": "2-39-123-23",
+    "station_name": "Arroyo EV Hub 1",
+    "location_label": "Arroyo Parkway & Green Street",
+    "charger_type": "DC Fast",
+    "power_rating_kw": 50.0,
+    "installed_at": "2019-08-14"
+  },
+  {
+    "station_id": "2-39-123-557",
+    "station_name": "Lot C Charger 4",
+    "location_label": "Campus Lot C near Wilson Avenue",
+    "charger_type": "Level 2",
+    "power_rating_kw": 7.2,
+    "installed_at": "2017-03-22"
+  },
+  {
+    "station_id": "2-39-124-22",
+    "station_name": "Foothill Plaza EVSE",
+    "location_label": "Foothill Boulevard shopping plaza",
+    "charger_type": "Level 2",
+    "power_rating_kw": 11.5,
+    "installed_at": "2018-06-05"
+  },
+  {
+    "station_id": "2-39-124-558",
+    "station_name": "Del Mar QuickCharge",
+    "location_label": "Del Mar Boulevard near gas station",
+    "charger_type": "DC Fast",
+    "power_rating_kw": 150.0,
+    "installed_at": "2019-11-18"
+  },
+  {
+    "station_id": "2-39-125-21",
+    "station_name": "Oak Grove L1 Post",
+    "location_label": "Oak Grove Drive service parking",
+    "charger_type": "Level 1",
+    "power_rating_kw": 1.92,
+    "installed_at": "2015-04-09"
+  },
+  {
+    "station_id": "2-39-126-20",
+    "station_name": "Wilson Garage EV-02",
+    "location_label": "Wilson Avenue parking garage level 2",
+    "charger_type": "Level 2",
+    "power_rating_kw": 6.6,
+    "installed_at": "2016-09-17"
+  },
+  {
+    "station_id": "2-39-126-560",
+    "station_name": "Hill Avenue Charger",
+    "location_label": "Hill Avenue & San Pasqual Street",
+    "charger_type": "Level 2",
+    "power_rating_kw": 7.2,
+    "installed_at": "2017-10-03"
+  },
+  {
+    "station_id": "2-39-127-19",
+    "station_name": "Orange Grove EV Bay",
+    "location_label": "Orange Grove Boulevard visitor parking",
+    "charger_type": "Level 2",
+    "power_rating_kw": 19.2,
+    "installed_at": "2019-02-26"
+  },
+  {
+    "station_id": "2-39-128-18",
+    "station_name": "Lake Avenue Fast Post",
+    "location_label": "Lake Avenue retail lot",
+    "charger_type": "DC Fast",
+    "power_rating_kw": 50.0,
+    "installed_at": "2018-12-11"
+  },
+  {
+    "station_id": "2-39-128-562",
+    "station_name": "Holliston Lot Charger",
+    "location_label": "Holliston Avenue staff parking",
+    "charger_type": "Level 2",
+    "power_rating_kw": 6.6,
+    "installed_at": "2016-01-28"
+  },
+  {
+    "station_id": "2-39-129-17",
+    "station_name": "Green Street EVSE 3",
+    "location_label": "Green Street behind coffee shop",
+    "charger_type": "Level 2",
+    "power_rating_kw": 7.2,
+    "installed_at": "2017-05-19"
+  },
+  {
+    "station_id": "2-39-129-563",
+    "station_name": "Cordova Station A",
+    "location_label": "Cordova Street public parking",
+    "charger_type": "Level 2",
+    "power_rating_kw": 11.5,
+    "installed_at": "2018-03-07"
+  },
+  {
+    "station_id": "2-39-130-31",
+    "station_name": "Walnut Grove Charger",
+    "location_label": "Walnut Street near transit stop",
+    "charger_type": "Level 1",
+    "power_rating_kw": 1.44,
+    "installed_at": "2015-08-21"
+  },
+  {
+    "station_id": "2-39-130-564",
+    "station_name": "Colorado EV Hub 2",
+    "location_label": "Colorado Boulevard garage entrance",
+    "charger_type": "Level 2",
+    "power_rating_kw": 19.2,
+    "installed_at": "2019-05-30"
+  },
+  {
+    "station_id": "2-39-131-30",
+    "station_name": "Fair Oaks FastCharge",
+    "location_label": "Fair Oaks Avenue near convenience store",
+    "charger_type": "DC Fast",
+    "power_rating_kw": 150.0,
+    "installed_at": "2019-09-06"
+  },
+  {
+    "station_id": "2-39-138-29",
+    "station_name": "San Pasqual EV-01",
+    "location_label": "San Pasqual Street residential edge",
+    "charger_type": "Level 2",
+    "power_rating_kw": 6.6,
+    "installed_at": "2016-06-14"
+  },
+  {
+    "station_id": "2-39-138-566",
+    "station_name": "Union Lot Plug A",
+    "location_label": "Union Street municipal lot",
+    "charger_type": "Level 2",
+    "power_rating_kw": 7.2,
+    "installed_at": "2017-01-12"
+  },
+  {
+    "station_id": "2-39-139-28",
+    "station_name": "Allen Avenue Charger",
+    "location_label": "Allen Avenue near grocery store",
+    "charger_type": "Level 2",
+    "power_rating_kw": 11.5,
+    "installed_at": "2018-07-24"
+  },
+  {
+    "station_id": "2-39-78-360",
+    "station_name": "Sierra Madre EV Post",
+    "location_label": "Sierra Madre Boulevard curbside",
+    "charger_type": "Level 1",
+    "power_rating_kw": 1.92,
+    "installed_at": "2015-11-04"
+  },
+  {
+    "station_id": "2-39-78-361",
+    "station_name": "Rosemead QuickCharge",
+    "location_label": "Rosemead Boulevard gas station lot",
+    "charger_type": "DC Fast",
+    "power_rating_kw": 50.0,
+    "installed_at": "2018-10-18"
+  },
+  {
+    "station_id": "2-39-78-362",
+    "station_name": "Madison Garage Port 6",
+    "location_label": "Madison Avenue garage lower level",
+    "charger_type": "Level 2",
+    "power_rating_kw": 6.6,
+    "installed_at": "2016-02-23"
+  },
+  {
+    "station_id": "2-39-78-363",
+    "station_name": "Euclid EVSE North",
+    "location_label": "Euclid Avenue office parking",
+    "charger_type": "Level 2",
+    "power_rating_kw": 7.2,
+    "installed_at": "2017-07-13"
+  },
+  {
+    "station_id": "2-39-78-364",
+    "station_name": "Raymond Lot Charger",
+    "location_label": "Raymond Avenue & Holly Street",
+    "charger_type": "Level 2",
+    "power_rating_kw": 11.5,
+    "installed_at": "2018-01-31"
+  },
+  {
+    "station_id": "2-39-78-365",
+    "station_name": "Marengo EV Dock",
+    "location_label": "Marengo Avenue clinic parking",
+    "charger_type": "Level 2",
+    "power_rating_kw": 6.6,
+    "installed_at": "2016-12-05"
+  },
+  {
+    "station_id": "2-39-78-366",
+    "station_name": "Altadena L1 Service Plug",
+    "location_label": "Altadena Drive maintenance yard",
+    "charger_type": "Level 1",
+    "power_rating_kw": 1.44,
+    "installed_at": "2015-03-16"
+  },
+  {
+    "station_id": "2-39-78-367",
+    "station_name": "Catalina Charger 2",
+    "location_label": "Catalina Avenue apartment parking",
+    "charger_type": "Level 2",
+    "power_rating_kw": 7.2,
+    "installed_at": "2017-09-28"
+  },
+  {
+    "station_id": "2-39-79-376",
+    "station_name": "Mountain Street EV Hub",
+    "location_label": "Mountain Street retail parking",
+    "charger_type": "Level 2",
+    "power_rating_kw": 19.2,
+    "installed_at": "2019-01-09"
+  },
+  {
+    "station_id": "2-39-79-377",
+    "station_name": "Los Robles EVSE",
+    "location_label": "Los Robles Avenue near pharmacy",
+    "charger_type": "Level 2",
+    "power_rating_kw": 6.6,
+    "installed_at": "2016-08-02"
+  },
+  {
+    "station_id": "2-39-79-378",
+    "station_name": "Mentor Lot Plug",
+    "location_label": "Mentor Avenue surface lot",
+    "charger_type": "Level 2",
+    "power_rating_kw": 7.2,
+    "installed_at": "2017-04-26"
+  },
+  {
+    "station_id": "2-39-79-379",
+    "station_name": "El Molino Charger",
+    "location_label": "El Molino Avenue mixed-use garage",
+    "charger_type": "Level 2",
+    "power_rating_kw": 11.5,
+    "installed_at": "2018-09-10"
+  },
+  {
+    "station_id": "2-39-79-380",
+    "station_name": "Corson Street Fast Post",
+    "location_label": "Corson Street park-and-ride",
+    "charger_type": "DC Fast",
+    "power_rating_kw": 50.0,
+    "installed_at": "2019-06-21"
+  },
+  {
+    "station_id": "2-39-79-381",
+    "station_name": "Maple Lot EVSE",
+    "location_label": "Maple Street staff lot",
+    "charger_type": "Level 2",
+    "power_rating_kw": 6.6,
+    "installed_at": "2016-05-06"
+  },
+  {
+    "station_id": "2-39-79-382",
+    "station_name": "Villa Street Charger A",
+    "location_label": "Villa Street near auto repair shop",
+    "charger_type": "Level 2",
+    "power_rating_kw": 7.2,
+    "installed_at": "2017-11-15"
+  },
+  {
+    "station_id": "2-39-79-383",
+    "station_name": "California Blvd EV-4",
+    "location_label": "California Boulevard campus edge",
+    "charger_type": "Level 2",
+    "power_rating_kw": 11.5,
+    "installed_at": "2018-02-12"
+  },
+  {
+    "station_id": "2-39-81-4550",
+    "station_name": "Seco Street L1 Plug",
+    "location_label": "Seco Street overflow parking",
+    "charger_type": "Level 1",
+    "power_rating_kw": 1.92,
+    "installed_at": "2015-09-30"
+  },
+  {
+    "station_id": "2-39-82-384",
+    "station_name": "Arden Road Charger",
+    "location_label": "Arden Road neighborhood lot",
+    "charger_type": "Level 2",
+    "power_rating_kw": 6.6,
+    "installed_at": "2016-11-09"
+  },
+  {
+    "station_id": "2-39-83-386",
+    "station_name": "Orange Line EVSE",
+    "location_label": "Transit stop lot near bus line",
+    "charger_type": "Level 2",
+    "power_rating_kw": 7.2,
+    "installed_at": "2017-12-14"
+  },
+  {
+    "station_id": "2-39-83-387",
+    "station_name": "Foothill FastCharge 2",
+    "location_label": "Foothill Boulevard gas station lot",
+    "charger_type": "DC Fast",
+    "power_rating_kw": 150.0,
+    "installed_at": "2019-12-03"
+  },
+  {
+    "station_id": "2-39-88-24",
+    "station_name": "Craig Avenue Port",
+    "location_label": "Craig Avenue office lot",
+    "charger_type": "Level 2",
+    "power_rating_kw": 11.5,
+    "installed_at": "2018-05-17"
+  },
+  {
+    "station_id": "2-39-88-438",
+    "station_name": "Hillcrest EV Dock",
+    "location_label": "Hillcrest Avenue residential parking",
+    "charger_type": "Level 1",
+    "power_rating_kw": 1.44,
+    "installed_at": "2015-06-25"
+  },
+  {
+    "station_id": "2-39-89-25",
+    "station_name": "San Gabriel Charger",
+    "location_label": "San Gabriel Boulevard shopping center",
+    "charger_type": "Level 2",
+    "power_rating_kw": 19.2,
+    "installed_at": "2019-03-27"
+  },
+  {
+    "station_id": "2-39-89-439",
+    "station_name": "La Loma EVSE",
+    "location_label": "La Loma Road trailhead parking",
+    "charger_type": "Level 2",
+    "power_rating_kw": 6.6,
+    "installed_at": "2016-10-31"
+  },
+  {
+    "station_id": "2-39-90-26",
+    "station_name": "Glenarm Lot Plug",
+    "location_label": "Glenarm Street small business lot",
+    "charger_type": "Level 2",
+    "power_rating_kw": 7.2,
+    "installed_at": "2017-02-02"
+  },
+  {
+    "station_id": "2-39-90-440",
+    "station_name": "Bellefontaine Charger",
+    "location_label": "Bellefontaine Street medical office lot",
+    "charger_type": "Level 2",
+    "power_rating_kw": 11.5,
+    "installed_at": "2018-08-08"
+  },
+  {
+    "station_id": "2-39-91-437",
+    "station_name": "Oak Knoll Fast Post",
+    "location_label": "Oak Knoll Avenue hotel parking",
+    "charger_type": "DC Fast",
+    "power_rating_kw": 50.0,
+    "installed_at": "2019-07-17"
+  },
+  {
+    "station_id": "2-39-91-441",
+    "station_name": "Michigan Avenue EV-1",
+    "location_label": "Michigan Avenue residential lot",
+    "charger_type": "Level 1",
+    "power_rating_kw": 1.92,
+    "installed_at": "2015-12-22"
+  },
+  {
+    "station_id": "2-39-92-436",
+    "station_name": "Norton Simon EVSE",
+    "location_label": "Museum area public parking",
+    "charger_type": "Level 2",
+    "power_rating_kw": 6.6,
+    "installed_at": "2016-04-05"
+  },
+  {
+    "station_id": "2-39-92-442",
+    "station_name": "Civic Center Charger",
+    "location_label": "Civic Center garage level 1",
+    "charger_type": "Level 2",
+    "power_rating_kw": 7.2,
+    "installed_at": "2017-06-06"
+  },
+  {
+    "station_id": "2-39-95-27",
+    "station_name": "Walnut FastCharge",
+    "location_label": "Walnut Street fuel station lot",
+    "charger_type": "DC Fast",
+    "power_rating_kw": 150.0,
+    "installed_at": "2019-09-24"
+  },
+  {
+    "station_id": "2-39-95-444",
+    "station_name": "Hudson Avenue EV Post",
+    "location_label": "Hudson Avenue office courtyard",
+    "charger_type": "Level 2",
+    "power_rating_kw": 11.5,
+    "installed_at": "2018-12-19"
+  }
+]
