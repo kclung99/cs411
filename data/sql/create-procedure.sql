@@ -1,5 +1,8 @@
+-- stored procedure purpose:
+-- compute station reliability summary and health label for one station.
 CREATE PROCEDURE EvaluateStationReliability(IN target_station_id VARCHAR(80))
 BEGIN
+  -- step 1: get latest status row per station.
   WITH latest_status AS (
     SELECT ss1.station_id, ss1.status, ss1.reported_at
     FROM StationStatus ss1
@@ -11,6 +14,7 @@ BEGIN
       ON ss1.station_id = ss2.station_id
      AND ss1.reported_at = ss2.latest_time
   ),
+  -- step 2: build per-station metrics from sessions, tickets, and statuses.
   station_metrics AS (
     SELECT
       s.station_id,
@@ -51,6 +55,7 @@ BEGIN
       s.power_rating_kw,
       latest.status
   ),
+  -- step 3: rank stations by reliability signals.
   ranked AS (
     SELECT
       station_metrics.*,
@@ -63,6 +68,7 @@ BEGIN
       ) AS reliability_rank
     FROM station_metrics
   )
+  -- step 4: return one station with a simple health label.
   SELECT
     ranked.*,
     CASE

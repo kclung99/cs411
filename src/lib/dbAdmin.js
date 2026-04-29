@@ -72,6 +72,10 @@ function procedurePath() {
   return path.resolve(/* turbopackIgnore: true */ process.cwd(), 'data/sql/create-procedure.sql')
 }
 
+function transactionProcedurePath() {
+  return path.resolve(/* turbopackIgnore: true */ process.cwd(), 'data/sql/create-transaction-procedure.sql')
+}
+
 function seedDir() {
   return process.env.DB_SEED_DIR
     ? path.resolve(/* turbopackIgnore: true */ process.cwd(), process.env.DB_SEED_DIR)
@@ -90,12 +94,15 @@ async function loadJson(filename) {
 async function installAdvancedDbObjects(conn) {
   await conn.query('DROP TRIGGER IF EXISTS trg_create_ticket_after_bad_status')
   await conn.query('DROP PROCEDURE IF EXISTS EvaluateStationReliability')
+  await conn.query('DROP PROCEDURE IF EXISTS ResolveMaintenanceTicket')
 
   const triggerSql = await readFile(triggerPath(), 'utf8')
   const procedureSql = await readFile(procedurePath(), 'utf8')
+  const transactionProcedureSql = await readFile(transactionProcedurePath(), 'utf8')
 
   await conn.query(triggerSql)
   await conn.query(procedureSql)
+  await conn.query(transactionProcedureSql)
 }
 
 async function runCreateDb() {
@@ -131,6 +138,7 @@ async function runSeedDb() {
   try {
     await conn.query('DROP TRIGGER IF EXISTS trg_create_ticket_after_bad_status')
     await conn.query('DROP PROCEDURE IF EXISTS EvaluateStationReliability')
+    await conn.query('DROP PROCEDURE IF EXISTS ResolveMaintenanceTicket')
     await conn.beginTransaction()
 
     const clearOrder = [
@@ -311,7 +319,7 @@ export async function runDbAction(action) {
   }
   if (action === 'seed') {
     await runSeedDb()
-    return 'Database seeded from JSON and advanced objects installed (trigger + stored procedure).'
+    return 'Database seeded from JSON and advanced objects installed (trigger + stored procedures).'
   }
   if (action === 'reset') {
     await runDropDb()
